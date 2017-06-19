@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-site",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-fontawesome": "^1.6.1",
+    "tachyons": "^4.7.4",
+    "tachyons-cli": "^1.0.11"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "css": "tachyons src/css/app.css > src/index.css --minify",
+    "prestart": "npm run css",
+    "prebuild": "npm run css"
+  }
+}

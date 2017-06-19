@@ -1,0 +1,55 @@
+{
+  "contact_icons": [{
+      "icon": "envelope",
+      "alt": "email",
+      "link": "mailto:dnlnss@gmail.com"
+    },
+    {
+      "icon": "github",
+      "alt": "github",
+      "link": "https://github.com/dnass"
+    },
+    {
+      "icon": "linkedin",
+      "alt": "linkedin",
+      "link": "https://linkedin.com/in/daniel-nass-15b7b4109"
+    }
+  ],
+  "portfolio_links": [{
+      "title": "The changing face of Phnom Penh",
+      "img": "cf.jpg",
+      "pub": "The Phnom Penh Post",
+      "url": "http://www.phnompenhpost.com/multimedia/changing-face-phnom-penh/"
+    },
+    {
+      "title": "Inside the Hun family's business empire",
+      "img": "bi.jpg",
+      "pub": "The Phnom Penh Post",
+      "url": "http://www.phnompenhpost.com/multimedia/changing-face-phnom-penh/#interactive"
+    },
+    {
+      "title": "Visualising Cambodia's national budget",
+      "img": "nb.jpg",
+      "pub": "The Phnom Penh Post",
+      "url": "http://www.phnompenhpost.com/national/interactive-visualising-cambodias-national-budget"
+    },
+    {
+      "title": "History of crimes, ineptitude for Cambodia’s flag of convenience scheme",
+      "img": "fc.jpg",
+      "pub": "The Phnom Penh Post",
+      "url": "http://www.phnompenhpost.com/national/history-crimes-ineptitude-cambodias-flag-convenience-scheme"
+    },
+    {
+      "title": "Only 20 percent of PM’s recent Facebook 'likes' from Cambodia",
+      "img": "fb.jpg",
+      "pub": "The Phnom Penh Post",
+      "url": "http://www.phnompenhpost.com/national/only-20-cent-pms-recent-facebook-likes-cambodia"
+    },
+    {
+      "title": "Few arrests in timber smuggling crackdown",
+      "img": "tl.jpg",
+      "pub": "The Phnom Penh Post",
+      "url": "http://www.phnompenhpost.com/national/interactive-few-arrests-timber-smuggling-crackdown"
+    }
+  ]
+}
