@@ -3,7 +3,7 @@ import FontAwesome from 'react-fontawesome';
 
 function Contact(props) {
   return (
-    <a className='mh3 black-80' href={props.link} target='_blank' rel="noopener noreferrer" alt={props.alt}>
+    <a className='mh3 black-80' href={props.link} target='_blank' rel="noopener noreferrer" aria-label={props.alt}>
       <FontAwesome
         className='grow'
         name={props.icon}
