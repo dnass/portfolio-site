@@ -2,8 +2,8 @@ import React from 'react'
 
 function Link(props) {
   return (
-    <article className='fl w-100 w-50-m  w-33-ns pa2-ns grow'>
-      <a href={props.url} target='_blank' rel="noopener noreferrer" alt={props.title} className='ph2 ph0-ns pb3 link db'>
+    <article className='fl w-100 w-50-m w-33-ns pa3-ns'>
+      <a href={props.url} target='_blank' rel='noopener noreferrer' alt={props.title} className='ph2 ph0-ns pb3 db no-underline'>
         <div className='aspect-ratio aspect-ratio--1x1'>
           <img src={`img/${props.img}`} alt={props.title} className='db bg-center cover aspect-ratio--object' />
         </div>

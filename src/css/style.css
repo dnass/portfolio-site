@@ -1,0 +1,26 @@
+/* Custom selection colors */
+
+::selection {
+  background: #0b4182;
+  color: white;
+}
+
+::-moz-selection {
+  background: #0b4182;
+  color: white;
+}
+
+
+/* Make sure new rows in the grid wrap properly */
+
+@media screen and (min-width: 60em) {
+  article:nth-child(3n+1) {
+    clear: left;
+  }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  article:nth-child(odd) {
+    clear: left;
+  }
+}
