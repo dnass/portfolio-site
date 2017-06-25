@@ -57,5 +57,14 @@
       "pub": "The Phnom Penh Post",
       "url": "http://www.phnompenhpost.com/national/well-always-have-paris-peace-accords-25-years-later"
     }
+  ],
+  "nav_links": [{
+      "title": "Work",
+      "url": ""
+    },
+    {
+      "title": "About",
+      "url": "about"
+    }
   ]
 }
