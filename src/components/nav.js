@@ -1,13 +1,14 @@
 import React from 'react'
 import NavItem from './navitem'
-import data from '../data.json'
+import routes from '../routes'
 
-const createNav = links => links.map(link => <NavItem title={link.title} url={link.url} key={link.title} />)
 
 const Nav = () => (
   <nav className='tc mt4 fr-l'>
-    {createNav(data.nav_links)}
+    {routes.map((route, i) => (
+      <NavItem key={i} {...route} />
+    ))}
   </nav>
 )
 
-export default Nav
+export default Nav;

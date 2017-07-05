@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import Link from './link'
 import data from '../data.json'
 
@@ -16,6 +17,7 @@ const createLinks = articles => articles.map(article =>
 
 const Links = () => (
   <section className='cf mb4-ns mb3'>
+    <Helmet title='Portfolio' />
     {createLinks(data.portfolio_links)}
   </section>
 )

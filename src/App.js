@@ -1,11 +1,11 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import ReactGA from 'react-ga'
 import Header from './components/header'
 import Footer from './components/footer'
-import Links from './components/links'
-import About from './components/about'
 import NoMatch from './components/nomatch'
+import routes from './routes'
 
 ReactGA.initialize('UA-101609250-1');
 
@@ -20,11 +20,14 @@ const logPageView = () => {
 const App = () => (
   <Router>
     <div className='avenir mw8-l center-l mh5-m mh2'>
+      <Helmet titleTemplate={`Daniel Nass | %s`}>
+      </Helmet>
       <Route component={logPageView}/>
       <Header/>
       <Switch>
-        <Route exact path="/" component={Links}/>
-        <Route exact path="/about" component={About}/>
+        {routes.map((route, i) => (
+          <Route key={i} {...route} />
+        ))}
         <Route component={NoMatch}/>
       </Switch>
       <Footer/>

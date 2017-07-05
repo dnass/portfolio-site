@@ -25,7 +25,7 @@
       "title": "Inside the Hun family's business empire",
       "img": "bi.jpg",
       "pub": "The Phnom Penh Post",
-      "url": "http://www.phnompenhpost.com/multimedia/changing-face-phnom-penh/#interactive"
+      "url": "http://www.phnompenhpost.com/national/inside-hun-familys-business-empire#interactive"
     },
     {
       "title": "Visualising Cambodia's national budget",
@@ -56,15 +56,6 @@
       "img": "pa.jpg",
       "pub": "The Phnom Penh Post",
       "url": "http://www.phnompenhpost.com/national/well-always-have-paris-peace-accords-25-years-later"
-    }
-  ],
-  "nav_links": [{
-      "title": "Work",
-      "url": ""
-    },
-    {
-      "title": "About",
-      "url": "about"
     }
   ]
 }
