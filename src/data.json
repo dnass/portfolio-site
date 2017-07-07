@@ -16,6 +16,12 @@
     }
   ],
   "portfolio_links": [{
+      "title": "Is it faster to bike?",
+      "img": "bk.jpg",
+      "pub": "fasterto.bike",
+      "url": "http://fasterto.bike"
+    },
+    {
       "title": "The changing face of Phnom Penh",
       "img": "cf.jpg",
       "pub": "The Phnom Penh Post",
