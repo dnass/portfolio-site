@@ -1,16 +1,21 @@
 {
   "contact_icons": [{
-      "icon": "envelope",
+      "icon": "envelope-square",
       "alt": "email",
       "link": "mailto:dnlnss@gmail.com"
     },
     {
-      "icon": "github",
+      "icon": "twitter-square",
+      "alt": "twitter",
+      "link": "https://twitter.com/dnlnss"
+    },
+    {
+      "icon": "github-square",
       "alt": "github",
       "link": "https://github.com/dnass"
     },
     {
-      "icon": "linkedin",
+      "icon": "linkedin-square",
       "alt": "linkedin",
       "link": "https://linkedin.com/in/daniel-nass-15b7b4109"
     }

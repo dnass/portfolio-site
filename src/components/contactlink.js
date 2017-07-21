@@ -6,7 +6,7 @@ import FontAwesome from 'react-fontawesome'
 
 const ContactLink = props => (
   <OutboundLink eventLabel={props.alt} className='mh3 black-80' to={props.link} target='_blank' rel='noopener noreferrer' aria-label={props.alt}>
-    <FontAwesome className='grow' name={props.icon} size='3x'/>
+    <FontAwesome className='grow' name={props.icon} size='4x'/>
   </OutboundLink>
 )
 

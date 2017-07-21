@@ -19,18 +19,17 @@ const logPageView = () => {
 
 const App = () => (
   <Router>
-    <div className='avenir mw8-l center-l mh5-m mh2'>
-      <Helmet titleTemplate={`Daniel Nass | %s`}>
-      </Helmet>
+    <div className='avenir center-l ph3-l mw8-l mh5-m mh2'>
+      <Helmet titleTemplate={`Daniel Nass | %s`} />
       <Route component={logPageView}/>
-      <Header/>
+      <Header />
       <Switch>
         {routes.map((route, i) => (
           <Route key={i} {...route} />
         ))}
         <Route component={NoMatch}/>
       </Switch>
-      <Footer/>
+      <Footer />
     </div>
   </Router>
 )
