@@ -21,52 +21,64 @@
     }
   ],
   "portfolio_links": [{
+      "title": "11 Facts That Tell the Story of Gun Violence in 2017",
+      "img": "gun-violence-facts.jpg",
+      "pub": "The Trace",
+      "url": "https://www.thetrace.org/features/gun-violence-facts-2017/"
+    },
+    {
+      "title": "Stolen Guns: Rising Firearm Theft Is Quietly Fueling Violent Crime",
+      "img": "missing-pieces.jpg",
+      "pub": "The Trace",
+      "url": "https://www.thetrace.org/features/stolen-guns-violent-crime-america/#interactive"
+    },
+    {
+      "title": "Three-Body Problem",
+      "img": "three-body-problem.jpg",
+      "pub": "threebody.solutions",
+      "url": "http://threebody.solutions"
+    },
+    {
       "title": "Is it faster to bike?",
-      "img": "bk.jpg",
+      "img": "faster-to-bike.jpg",
       "pub": "fasterto.bike",
       "url": "http://fasterto.bike"
     },
     {
       "title": "The changing face of Phnom Penh",
-      "img": "cf.jpg",
+      "img": "changing-face-phnom-penh.jpg",
       "pub": "The Phnom Penh Post",
       "url": "http://www.phnompenhpost.com/multimedia/changing-face-phnom-penh/"
     },
     {
       "title": "Inside the Hun family's business empire",
-      "img": "bi.jpg",
+      "img": "hun-family-business-empire.jpg",
       "pub": "The Phnom Penh Post",
       "url": "http://www.phnompenhpost.com/national/inside-hun-familys-business-empire#interactive"
     },
     {
       "title": "Visualising Cambodia's national budget",
-      "img": "nb.jpg",
+      "img": "cambodia-national-budget.jpg",
       "pub": "The Phnom Penh Post",
       "url": "http://www.phnompenhpost.com/national/interactive-visualising-cambodias-national-budget"
     },
     {
       "title": "History of crimes, ineptitude for Cambodia’s flag of convenience scheme",
-      "img": "fc.jpg",
+      "img": "cambodia-flag-convenience.jpg",
       "pub": "The Phnom Penh Post",
       "url": "http://www.phnompenhpost.com/national/history-crimes-ineptitude-cambodias-flag-convenience-scheme"
     },
     {
       "title": "Only 20 percent of PM’s recent Facebook 'likes' from Cambodia",
-      "img": "fb.jpg",
+      "img": "hun-sen-fb.jpg",
       "pub": "The Phnom Penh Post",
       "url": "http://www.phnompenhpost.com/national/only-20-cent-pms-recent-facebook-likes-cambodia"
     },
     {
       "title": "Few arrests in timber smuggling crackdown",
-      "img": "tl.jpg",
+      "img": "cambodia-timber-crackdown.jpg",
       "pub": "The Phnom Penh Post",
       "url": "http://www.phnompenhpost.com/national/interactive-few-arrests-timber-smuggling-crackdown"
-    },
-    {
-      "title": "We'll always have Paris",
-      "img": "pa.jpg",
-      "pub": "The Phnom Penh Post",
-      "url": "http://www.phnompenhpost.com/national/well-always-have-paris-peace-accords-25-years-later"
     }
   ]
 }
