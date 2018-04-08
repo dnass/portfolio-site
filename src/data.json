@@ -1,84 +1,137 @@
-{
-  "contact_icons": [{
-      "icon": "envelope-square",
-      "alt": "email",
-      "link": "mailto:dnlnss@gmail.com"
-    },
-    {
-      "icon": "twitter-square",
-      "alt": "twitter",
-      "link": "https://twitter.com/dnlnss"
-    },
-    {
-      "icon": "github-square",
-      "alt": "github",
-      "link": "https://github.com/dnass"
-    },
-    {
-      "icon": "linkedin-square",
-      "alt": "linkedin",
-      "link": "https://linkedin.com/in/daniel-nass-15b7b4109"
-    }
-  ],
-  "portfolio_links": [{
-      "title": "11 Facts That Tell the Story of Gun Violence in 2017",
-      "img": "gun-violence-facts.jpg",
-      "pub": "The Trace",
-      "url": "https://www.thetrace.org/features/gun-violence-facts-2017/"
-    },
-    {
-      "title": "Stolen Guns: Rising Firearm Theft Is Quietly Fueling Violent Crime",
-      "img": "missing-pieces.jpg",
-      "pub": "The Trace",
-      "url": "https://www.thetrace.org/features/stolen-guns-violent-crime-america/#interactive"
-    },
-    {
-      "title": "Three-Body Problem",
-      "img": "three-body-problem.jpg",
-      "pub": "threebody.solutions",
-      "url": "http://threebody.solutions"
-    },
-    {
-      "title": "Is it faster to bike?",
-      "img": "faster-to-bike.jpg",
-      "pub": "fasterto.bike",
-      "url": "http://fasterto.bike"
-    },
-    {
-      "title": "The changing face of Phnom Penh",
-      "img": "changing-face-phnom-penh.jpg",
-      "pub": "The Phnom Penh Post",
-      "url": "http://www.phnompenhpost.com/multimedia/changing-face-phnom-penh/"
-    },
-    {
-      "title": "Inside the Hun family's business empire",
-      "img": "hun-family-business-empire.jpg",
-      "pub": "The Phnom Penh Post",
-      "url": "http://www.phnompenhpost.com/national/inside-hun-familys-business-empire#interactive"
-    },
-    {
-      "title": "Visualising Cambodia's national budget",
-      "img": "cambodia-national-budget.jpg",
-      "pub": "The Phnom Penh Post",
-      "url": "http://www.phnompenhpost.com/national/interactive-visualising-cambodias-national-budget"
-    },
-    {
-      "title": "History of crimes, ineptitude for Cambodia’s flag of convenience scheme",
-      "img": "cambodia-flag-convenience.jpg",
-      "pub": "The Phnom Penh Post",
-      "url": "http://www.phnompenhpost.com/national/history-crimes-ineptitude-cambodias-flag-convenience-scheme"
-    },
-    {
-      "title": "Only 20 percent of PM’s recent Facebook 'likes' from Cambodia",
-      "img": "hun-sen-fb.jpg",
-      "pub": "The Phnom Penh Post",
-      "url": "http://www.phnompenhpost.com/national/only-20-cent-pms-recent-facebook-likes-cambodia"
-    },
-    {
-      "title": "Few arrests in timber smuggling crackdown",
-      "img": "cambodia-timber-crackdown.jpg",
-      "pub": "The Phnom Penh Post",
-      "url": "http://www.phnompenhpost.com/national/interactive-few-arrests-timber-smuggling-crackdown"
-    }
-  ]
-}
+[{
+    "title": "The N.R.A. Lobbyist Behind Florida’s Pro-Gun Policies",
+    "category": "The Trace",
+    "date": "2018-03-05",
+    "img": "florida-map.jpg",
+    "alt": "Map visualizing the NRA grades of Florida lawmakers.",
+    "role": "Design, code",
+    "info": "For a feature on NRA lobbyist Marion Hammer, I collaborated with The New Yorker's digital team to create an interactive map illustrating the NRA grades of every Florida lawmaker. I sourced the data from the NRA's <a href='https://www.nrapvf.org/grades/'>archive</a>, and built the map with D3. The graphic was published on The Trace and in The New Yorker's <a href='https://www.newyorker.com/magazine/2018/03/05/the-nra-lobbyist-behind-floridas-pro-gun-policies'>version</a> of the article.",
+    "url": "https://www.newyorker.com/magazine/2018/03/05/the-nra-lobbyist-behind-floridas-pro-gun-policies/",
+    "slug": "hammer-map"
+  }, {
+    "title": "The Florida Loophole That Lets Thousands of People Banned From Guns Get Away With Lying on Background Checks",
+    "category": "The Trace",
+    "date": "2018-03-02",
+    "img": "lie-and-try.jpg",
+    "role": "Reporting, words",
+    "alt": "Photo illustration of a gun and a background check form.",
+    "info": "I partnered with Scripps reporter <a href='https://twitter.com/KatieLaGrone'>Katie LaGrone</a> to investigate a little-known loophole in Florida's firearm backround check system that prevents the state from prosecuting buyers for lying about their criminal histories. In addition to the article, a televised segment based on our reporting aired on three Scripps-owned stations in south Florida.",
+    "url": "https://www.thetrace.org/2018/03/florida-lie-and-try-loophole-background-check-denials/",
+    "slug": "lie-and-try"
+  }, {
+    "title": "What Members of Congress Do — and Don’t — Say After Mass Shootings",
+    "category": "The Trace",
+    "date": "2018-02-21",
+    "img": "congress-statements.jpg",
+    "role": "Code, data analysis, design, words",
+    "alt": "Interactive analysis of the language used in statements by members of Congress following mass shootings.",
+    "info": "After the Parkland shooting, I wanted to find out how prevalent the widely mocked phrase \"thoughts and prayers\" actually was. So I used ProPublica's <a href='https://projects.propublica.org/api-docs/congress-api/'>Congress API</a> to find the text of more than 800 statements released by members of Congress in the aftermath of mass shootings. My analysis found that two-thirds of all the statements contain the word \"pray\" – and also that Marco Rubio is the only Republican ever to utter the words \"gun control\" after a mass shooting. As the final step of the interactive, a search interface lets users query the data themselves.",
+    "url": "https://www.thetrace.org/2018/02/congress-members-statements-mass-shootings/",
+    "slug": "congress"
+  }, {
+    "title": "The ATF Received 36,000 Comments on Bump Stocks. They’re Overwhelmingly Anti-Regulation.",
+    "category": "The Trace",
+    "date": "2018-02-06",
+    "img": "bump-stock-comments.jpg",
+    "role": "Code, data analysis, design, words",
+    "alt": "Chart showing the breakdown of 36,000 public comments posted in response to a proposed ban on bump stocks.",
+    "info": "The public comment period for a proposed ATF regulation to regulate bump stocks as machine guns – effectively a ban – drew more than 36,000 comments. My colleague <a href='https://twitter.com/sean_kev'>Sean Campbell</a> and I scraped the text of these comments and, using a combination of Python scripts and hand-tagging, calculated the share of comments for and against the regulation, as well as the percent that were unique or form letters. We found that the responses were overwhelmingly opposed to the regulation, backing up previous <a href='https://www.thetrace.org/rounds/pro-gun-men-react-mass-shootings/'>research</a> which found that gun rights supporters are more politically engaged than their opponents.",
+    "url": "https://www.thetrace.org/rounds/atf-bump-stock-regulation-comments-analysis/",
+    "slug": "bump-stock"
+  }, {
+    "title": "11 Facts That Tell the Story of Gun Violence in 2017",
+    "category": "The Trace",
+    "date": "2017-12-26",
+    "img": "gun-violence-facts.jpg",
+    "role": "Design, code, words",
+    "alt": "Listicle illustrating key facts about gun violence.",
+    "info": "Listicles are boring. For The Trace's year-end roundup of statistics on gun violence, I used <a href='https://github.com/russellgoldenberg/scrollama'>Scrollama</a> and D3 to build a scroll-driven interactive with a visualization or image for each fact on the list.",
+    "url": "https://www.thetrace.org/features/gun-violence-facts-2017/",
+    "slug": "2017-facts"
+  },
+  {
+    "title": "Stolen Guns: Rising Firearm Theft Is Quietly Fueling Violent Crime",
+    "category": "The Trace",
+    "date": "2017-11-20",
+    "img": "missing-pieces.jpg",
+    "role": "Data analysis, design, code",
+    "alt": "Interactive data visualization about gun theft in major U.S. cities.",
+    "info": "The Trace's <a href='https://twitter.com/BrianFreskos'>Brian Freskos</a> launched an enormous investigation into gun theft by requesting data on stolen and recovered guns from hundreds of law enforcement agencies around the country. I helped to clean and analyze that data, writing scripts to normalize hundreds of spelling variations, identify errors in serial numbers, and comb through the records to match stolen and recovered firearms. We <a href='https://www.thetrace.org/missing-pieces/'>partnered</a> with more than a dozen NBC stations, who used the data, as well as graphics I produced, to report on gun theft in cities around the country. We also <a href='https://www.thetrace.org/missing-pieces-data'>published the raw data</a>.",
+    "url": "https://www.thetrace.org/features/stolen-guns-violent-crime-america/#interactive",
+    "slug": "missing-pieces"
+  },
+  {
+    "title": "Visualising Cambodia's national budget",
+    "category": "The Phnom Penh Post",
+    "date": "2016-11-23",
+    "img": "cambodia-national-budget.jpg",
+    "role": "Design, code",
+    "alt": "Treemap diagram of four years of Cambodia's national budget data.",
+    "info": "In Cambodia, public data is scarce and often difficult to access. When I got ahold of four years of national budget figures, I built this interactive budget explorer to make the data available as a public resource.",
+    "url": "http://www.phnompenhpost.com/national/interactive-visualising-cambodias-national-budget",
+    "slug": "cambodia-budget"
+  },
+  {
+    "title": "History of crimes, ineptitude for Cambodia’s flag of convenience scheme",
+    "category": "The Phnom Penh Post",
+    "date": "2016-09-16",
+    "img": "cambodia-flag-convenience.jpg",
+    "role": "Reporting, code, data analysis, design",
+    "alt": "A map of a Cambodian ship's movements between China and North Korea.",
+    "info": "Until 2016, Cambodia ran a flag of convenience program, under which foreign nationals could register their ships to fly the Cambodian flag. To investigate the program's shady history, I scraped GPS tracking data for hundreds of Cambodian-flagged vessels, which reporter <a href='https://twitter.com/jackoozell'>Jack Davies</a> and I combed through to identify ships that had called at ports in North Korea and Crimea. I also designed the article's maps.",
+    "url": "http://www.phnompenhpost.com/national/history-crimes-ineptitude-cambodias-flag-convenience-scheme",
+    "slug": "flag-of-convenience"
+  }, {
+    "title": "The changing face of Phnom Penh",
+    "category": "The Phnom Penh Post",
+    "date": "2016-07-29",
+    "img": "changing-face-phnom-penh.jpg",
+    "role": "Design, code, words",
+    "alt": "Satellite map presentation showcasing timelapses of major infrastructure developments in Phnom Penh.",
+    "info": "The city of Phnom Penh is being dramatically – and often violently – transformed by large-scale construction and land reclamation projects. For this interactive, I created immersive time lapses of Google Earth satellite imagery to illustrate the city's astonishing pace of growth. A locator map built in Mapbox provides geographic context.",
+    "url": "http://www.phnompenhpost.com/multimedia/changing-face-phnom-penh/",
+    "slug": "changing-face"
+  },
+  {
+    "title": "Inside the Hun family's business empire",
+    "category": "The Phnom Penh Post",
+    "date": "2016-07-07",
+    "img": "hun-family-business-empire.jpg",
+    "role": "Design, code",
+    "alt": "Visualization of the business holdings of Cambodian Prime Minister Hun Sen's extended family.",
+    "info": "A Global Witness <a href='https://www.globalwitness.org/en/reports/hostile-takeover/'>report</a> detailing the vast business holdings of Hun Sen's extended family formed the basis for this interactive (my first ever D3 project) which earned a nod from <a href='http://datadrivenjournalism.net/featured_projects/wheel_of_fortune_cambodian_data_journalists_visualize_the_ruling_familys_co'>Data Driven Journalism</a>. I was really into Bloomberg's visuals at the time, which may explain some of the weird, brash choices in the article's design. This article was also <a href='https://www.postkhmer.com/%E1%9E%96%E1%9F%90%E1%9E%8F%E1%9F%8C%E1%9E%98%E1%9E%B6%E1%9E%93%E1%9E%87%E1%9E%B6%E1%9E%8F%E1%9E%B7/%E1%9E%A2%E1%9E%B6%E1%9E%8E%E1%9E%B6%E1%9E%85%E1%9E%80%E1%9F%92%E1%9E%9A%E1%9E%87%E1%9F%86%E1%9E%93%E1%9E%BD%E1%9E%89%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%80%E1%9E%BC%E1%9E%9B-%E1%9E%A0%E1%9F%8A%E1%9E%BB%E1%9E%93-%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%BC%E1%9E%9C%E1%9E%94%E1%9E%B6%E1%9E%93%E1%9E%9B%E1%9E%B6%E1%9E%8F%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%8A%E1%9E%B6%E1%9E%84%E1%9E%8A%E1%9F%84%E1%9E%99-globalwitness'>published in Khmer</a>.",
+    "url": "http://www.phnompenhpost.com/national/inside-hun-familys-business-empire#interactive",
+    "slug": "hun-family"
+  },
+  {
+    "title": "Only 20 percent of PM’s recent Facebook 'likes' from Cambodia",
+    "category": "The Phnom Penh Post",
+    "date": "2016-03-09",
+    "img": "hun-sen-fb.jpg",
+    "role": "Data analysis, design",
+    "alt": "Bar chart comparing Facebook likes of Hun Sen and Sam Rainsy.",
+    "info": "In 2016, Cambodian Prime Minister Hun Sen was engaged in a Facebook popularity war with then-opposition leader Sam Rainsy. Using free data from a social media <a href='https://www.socialbakers.com/statistics/facebook/pages/detail/111975152184324-samdech-hun-sen-cambodian-prime-minister'>analytics site</a>, I discovered that hundreds of thousands of the Prime Minister's Facebook likes had come from countries outside of Cambodia, such as India and the Philippines. The story sparked <a href='http://www.bbc.com/news/world-asia-35839701'>international</a> <a href='http://www.newsweek.com/cambodia-hun-sen-facebook-sam-rainsy-438294'>coverage</a> and led to a legal dispute that between Sam Rainsy and Hun Sen that is <a href='https://www.reuters.com/article/us-facebook-cambodia/facebook-runs-into-lawsuit-over-cambodian-politics-idUSKBN1FT1PB'>still ongoing</a>. This article was also <a href='https://www.postkhmer.com/%E1%9E%96%E1%9F%90%E1%9E%8F%E1%9F%8C%E1%9E%98%E1%9E%B6%E1%9E%93%E1%9E%87%E1%9E%B6%E1%9E%8F%E1%9E%B7/%E1%9E%A2%E1%9F%92%E1%9E%93%E1%9E%80%E1%9E%82%E1%9E%B6%E1%9F%86%E1%9E%91%E1%9F%92%E1%9E%9A%E1%9E%A0%E1%9F%92%E1%9E%9C%E1%9F%81%E1%9E%9F%E1%9E%94%E1%9F%8A%E1%9E%BB%E1%9E%80%E1%9E%93%E1%9E%B6%E1%9E%99%E1%9E%80%E1%9E%9A%E1%9E%8A%E1%9F%92%E1%9E%8B%E1%9E%98%E1%9E%93%E1%9F%92%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%B8-%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%BC%E1%9E%9C%E1%9E%94%E1%9E%B6%E1%9E%93%E1%9E%82%E1%9F%81%E1%9E%9A%E1%9E%80%E1%9E%83%E1%9E%BE%E1%9E%89%E1%9E%90%E1%9E%B6-%E1%9E%87%E1%9E%B6%E1%9E%84%E1%9E%96%E1%9E%B6%E1%9E%80%E1%9F%8B%E1%9E%80%E1%9E%8E%E1%9F%92%E1%9E%8A%E1%9E%B6%E1%9E%9B%E1%9E%98%E1%9E%B6%E1%9E%93%E1%9E%94%E1%9F%92%E1%9E%9A%E1%9E%97%E1%9E%96%E1%9E%98%E1%9E%80%E1%9E%96%E1%9E%B8%E1%9E%94%E1%9E%9A%E1%9E%91%E1%9F%81%E1%9E%9F'>published in Khmer</a>.",
+    "url": "http://www.phnompenhpost.com/national/only-20-cent-pms-recent-facebook-likes-cambodia",
+    "slug": "hun-sen-facebook"
+  },
+  {
+    "title": "Three-Body Problem",
+    "category": "Personal",
+    "img": "three-body-problem.jpg",
+    "alt": "An image of the simulated gravitational interaction of three bodies.",
+    "role": "Design, code",
+    "info": "As I was reading Liu Cixin's <em><a href='https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)'>The Three-Body Problem</a></em>, I wanted to get a better understanding of the mechanics of the actual <a href='https://en.wikipedia.org/wiki/Three-body_problem'>three-body problem</a>. So using <a href='https://github.com/mrdoob/three.js/'>three.js</a>, React, and a dim recollection of physics I learned in an undergrad astronomy class, I built a little website to simulate it. You can get the code for the project <a href='https://github.com/dnass/threebody'>here</a>.",
+    "url": "http://threebody.solutions",
+    "slug": "three-body"
+  },
+  {
+    "title": "This website",
+    "category": "Personal",
+    "img": "this-website.jpg",
+    "role": "Design, code, words",
+    "alt": "An infinitely recursive screenshot of this website.",
+    "info": "It's not Squarespace! I built this site by hand with React and Tachyons. The code is <a href='https://github.com/dnass/portfolio-site'>here</a>.",
+    "url": "/",
+    "slug": "this-website"
+  }
+]
