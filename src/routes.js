@@ -3,11 +3,12 @@ import About from './components/about'
 
 const routes = [
   {
-    title: 'Home',
+    title: 'Work',
     path: '/',
     component: Links,
     exact: true
-  }, {
+  },
+  {
     title: 'About',
     path: '/about/',
     component: About,
@@ -15,4 +16,4 @@ const routes = [
   }
 ]
 
-export default routes;
+export default routes

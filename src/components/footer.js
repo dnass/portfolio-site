@@ -1,16 +1,33 @@
 import React from 'react'
 import ContactLink from './contactlink'
-import data from '../data.json'
 
-const createIcons = contacts => contacts.map(contact => (
-   <ContactLink icon={contact.icon} link={contact.link} alt={contact.alt} key={contact.alt}/>
-  )
-)
+const links = [
+  {
+    icon: 'envelope-square',
+    alt: 'email',
+    link: 'mailto:dnlnss@gmail.com'
+  },
+  {
+    icon: ['fab', 'twitter-square'],
+    alt: 'twitter',
+    link: 'https://twitter.com/dnlnss'
+  },
+  {
+    icon: ['fab', 'github-square'],
+    alt: 'github',
+    link: 'https://github.com/dnass'
+  },
+  {
+    icon: ['fab', 'linkedin'],
+    alt: 'linkedin',
+    link: 'https://linkedin.com/in/daniel-nass-15b7b4109'
+  }
+]
 
 const Footer = () => (
-  <footer className='tc mb5-ns mb4'>
-    {createIcons(data.contact_icons)}
+  <footer className="tc mb5-ns mb4">
+    {links.map(link => <ContactLink key={link.alt} {...link} />)}
   </footer>
 )
 
-export default Footer;
+export default Footer

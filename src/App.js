@@ -6,31 +6,30 @@ import Header from './components/header'
 import Footer from './components/footer'
 import NoMatch from './components/nomatch'
 import routes from './routes'
+import './icons'
 
-ReactGA.initialize('UA-101609250-1');
+ReactGA.initialize('UA-101609250-1')
 
 //Dummy router component to send pageviews to GA
 
 const logPageView = () => {
-  ReactGA.set({page: window.location.pathname});
-  ReactGA.pageview(window.location.pathname);
-  return null;
+  ReactGA.set({ page: window.location.pathname })
+  ReactGA.pageview(window.location.pathname)
+  return null
 }
 
 const App = () => (
   <Router>
-    <div className='avenir center-l ph3-l mw8-l mh5-m mh2'>
+    <React.Fragment>
       <Helmet titleTemplate={`Daniel Nass | %s`} />
-      <Route component={logPageView}/>
+      <Route component={logPageView} />
       <Header />
       <Switch>
-        {routes.map((route, i) => (
-          <Route key={i} {...route} />
-        ))}
-        <Route component={NoMatch}/>
+        {routes.map((route, i) => <Route key={i} {...route} />)}
+        <Route component={NoMatch} />
       </Switch>
       <Footer />
-    </div>
+    </React.Fragment>
   </Router>
 )
 
