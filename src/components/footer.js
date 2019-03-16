@@ -25,8 +25,10 @@ const links = [
 ]
 
 const Footer = () => (
-  <footer className="tc mb5-ns mb4">
-    {links.map(link => <ContactLink key={link.alt} {...link} />)}
+  <footer className="tc mb5-ns mb4 pt4 bt b--light-gray">
+    {links.map(link => (
+      <ContactLink key={link.alt} {...link} />
+    ))}
   </footer>
 )
 

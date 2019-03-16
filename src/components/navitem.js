@@ -1,14 +1,14 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-const NavItem = props => (
+const NavItem = ({ path, title }) => (
   <NavLink
     exact
-    activeClassName="fw7"
-    className="ph3 fw5 lh-solid no-underline black-50 ttu"
-    to={props.path}
+    activeClassName="fw7 bb bw2"
+    className="mh3 fw5 lh-solid no-underline black-50 ttu"
+    to={path}
   >
-    {props.title}
+    {title}
   </NavLink>
 )
 

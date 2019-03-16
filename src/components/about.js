@@ -9,26 +9,32 @@ const About = () => (
     </div>
     <div className="w-100 w-40-l ml4-l">
       <p>
-        <span className="fw8">Daniel Nass</span> creates interactive and data-driven
-        stories at{' '}
+        <span className="fw8">Daniel Nass</span> creates interactive and
+        data-driven stories at{' '}
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.thetrace.org/author/dnass/"
         >
           The Trace
-        </a>. Before that, he was the web editor of{' '}
+        </a>
+        . Before that, he was the web editor of{' '}
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="http://www.phnompenhpost.com/author/daniel-nass/85381"
         >
           The Phnom Penh Post
-        </a>. He lives in Brooklyn.
+        </a>
+        . He lives in Brooklyn.
       </p>
       <p>
         Get in touch!{' '}
-        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/dnlnss">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://twitter.com/dnlnss"
+        >
           @dnlnss
         </a>{' '}
         or{' '}

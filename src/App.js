@@ -20,16 +20,18 @@ const logPageView = () => {
 
 const App = () => (
   <Router>
-    <React.Fragment>
+    <>
       <Helmet titleTemplate={`Daniel Nass | %s`} />
       <Route component={logPageView} />
       <Header />
       <Switch>
-        {routes.map((route, i) => <Route key={i} {...route} />)}
+        {routes.map((route, i) => (
+          <Route key={i} {...route} />
+        ))}
         <Route component={NoMatch} />
       </Switch>
       <Footer />
-    </React.Fragment>
+    </>
   </Router>
 )
 
