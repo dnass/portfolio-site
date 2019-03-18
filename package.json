@@ -1,33 +1,45 @@
 {
   "name": "portfolio-site",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.8",
-    "@fortawesome/free-brands-svg-icons": "^5.5.0",
-    "@fortawesome/free-solid-svg-icons": "^5.5.0",
-    "@fortawesome/react-fontawesome": "^0.1.3",
-    "d3-collection": "^1.0.7",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-ga": "^2.5.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "gatsby": "^2.1.37",
+    "gatsby-image": "^2.0.34",
+    "gatsby-plugin-google-analytics": "^2.0.17",
+    "gatsby-plugin-manifest": "^2.0.24",
+    "gatsby-plugin-postcss": "^2.0.7",
+    "gatsby-plugin-purgecss": "^3.1.0",
+    "gatsby-plugin-react-helmet": "^3.0.10",
+    "gatsby-plugin-sharp": "^2.0.29",
+    "gatsby-source-filesystem": "^2.0.27",
+    "gatsby-transformer-json": "^2.1.11",
+    "gatsby-transformer-sharp": "^2.1.17",
+    "intersection-observer": "^0.5.1",
+    "postcss-browser-reporter": "^0.5.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-reporter": "^6.0.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
-    "react-lazy-load": "^3.0.13",
-    "react-router-dom": "^4.3.1",
     "tachyons": "^4.11.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
   "devDependencies": {
-    "react-scripts": "2.1.1",
-    "react-snapshot": "^1.3.0"
+    "prettier": "^1.16.4"
   },
-  "browserslist": [
-    ">0.2%",
-    "not ie <= 11"
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnass/portfolio-site"
+  }
 }

@@ -1,15 +1,12 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'gatsby'
 
-const NavItem = ({ path, title }) => (
-  <NavLink
-    exact
-    activeClassName="fw7 bb bw2"
+export default ({ path, title }) => (
+  <Link
+    activeClassName="fw7 bb bw1"
     className="mh3 fw5 lh-solid no-underline black-50 ttu"
     to={path}
   >
     {title}
-  </NavLink>
+  </Link>
 )
-
-export default NavItem

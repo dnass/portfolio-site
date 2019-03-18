@@ -1,3 +1,3 @@
-My personal portfolio site, hosted at [dnass.xyz](https://dnass.xyz).
+My personal portfolio site, hosted at [danielnass.net](https://danielnass.net).
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+Made with [Gatsby](https://www.gatsbyjs.org/) and [Tachyons](https://tachyons.io/).

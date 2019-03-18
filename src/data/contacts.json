@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "envelope-square",
+    "prefix": "fas",
+    "alt": "email",
+    "link": "mailto:dnlnss@gmail.com"
+  },
+  {
+    "icon": "twitter-square",
+    "prefix": "fab",
+    "alt": "twitter",
+    "link": "https://twitter.com/dnlnss"
+  },
+  {
+    "icon": "github-square",
+    "prefix": "fab",
+    "alt": "github",
+    "link": "https://github.com/dnass"
+  },
+  {
+    "icon": "linkedin",
+    "prefix": "fab",
+    "alt": "linkedin",
+    "link": "https://linkedin.com/in/daniel-nass-15b7b4109"
+  }
+]
