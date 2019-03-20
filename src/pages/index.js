@@ -1,18 +1,15 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
-import Layout from '../layouts'
 import Link from '../components/link'
 
 export default ({ data }) => (
-  <Layout>
-    <main className="mb3 flex flex-wrap">
-      <Helmet title="Portfolio" />
-      {data.allProjectsJson.edges.map(({ node }) => (
-        <Link key={node.title} {...node} />
-      ))}
-    </main>
-  </Layout>
+  <main className="mb3 flex flex-wrap">
+    <Helmet title="Portfolio" />
+    {data.allProjectsJson.edges.map(({ node }) => (
+      <Link key={node.title} {...node} />
+    ))}
+  </main>
 )
 
 export const query = graphql`

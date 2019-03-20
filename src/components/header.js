@@ -15,7 +15,7 @@ export default () => {
   `)
 
   return (
-    <header className="ph3-l mt5-ns mb4 mt4">
+    <header className="ph4-l mt5-ns mb4 mt4">
       <Link to="/" className="tl-l tc dib-l db no-underline">
         <h1 className="f1-ns f2 fw8 black-80 ttu ma0 mb2">
           {site.siteMetadata.title}

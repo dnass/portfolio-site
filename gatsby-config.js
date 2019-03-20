@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Daniel Nass`,
-    subtitle: `Visual Journalist`
+    subtitle: `News ⧉ Data ⧉ Graphics ⧉ Code`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -9,6 +9,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-json`,
+    `gatsby-plugin-layout`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

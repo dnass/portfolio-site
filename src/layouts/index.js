@@ -4,11 +4,12 @@ import Helmet from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import Transition from './transition'
 import './icons'
 import './style.css'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
-export default ({ children }) => {
+export default ({ children, location }) => {
   const { site } = useStaticQuery(graphql`
     query {
       site {
@@ -34,7 +35,7 @@ export default ({ children }) => {
       />
       <div className="avenir center-l ph3-l mw8-l mh4-m mh2">
         <Header />
-        {children}
+        <Transition location={location}>{children}</Transition>
         <Footer />
       </div>
     </>

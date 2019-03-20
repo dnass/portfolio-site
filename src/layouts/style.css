@@ -1,4 +1,8 @@
-/* Custom selection colors */
+.shadow {
+  box-shadow: 5px 5px 0 #0b4182;
+  border-color: #0b4182;
+}
+
 a {
   color: #0b4182;
   text-decoration: none;
@@ -16,4 +20,20 @@ a:not(.no-underline):hover {
 ::-moz-selection {
   background: #0b4182;
   color: white;
+}
+
+img::selection {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.grow {
+  transition-duration: 0.15s;
+}
+
+.grow-child {
+  transition: transform 0.15s ease-out, -webkit-transform 0.15s ease-out;
+}
+
+.grow-parent:hover .grow-child {
+  transform: scale(1.2);
 }

@@ -3,8 +3,8 @@ import { Link } from 'gatsby'
 
 export default ({ path, title }) => (
   <Link
-    activeClassName="fw7 bb bw1"
-    className="mh3 fw5 lh-solid no-underline black-50 ttu"
+    activeClassName="fw7 br1 bg-black-50 white"
+    className="fw5 ph3 pv1 lh-solid no-underline black-50 ttu"
     to={path}
   >
     {title}

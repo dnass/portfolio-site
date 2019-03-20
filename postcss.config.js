@@ -1,4 +1,3 @@
-// in postcss.config.js
 const postcssImport = require(`postcss-import`)
 const postcssCssNext = require(`postcss-cssnext`)
 const postcssBrowserReporter = require(`postcss-browser-reporter`)
@@ -9,6 +8,6 @@ module.exports = () => ({
     postcssImport(),
     postcssCssNext(),
     postcssBrowserReporter(),
-    postcssReporter(),
-  ],
+    postcssReporter()
+  ]
 })
