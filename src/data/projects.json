@@ -1,12 +1,52 @@
 [
   {
+    "title": "Fireproofing the Future in California",
+    "category": "The New Yorker",
+    "date": "February 2019",
+    "image": { "src": "../img/california-wildfires.png" },
+    "alt": "Map of wildfire area in California.",
+    "role": "Graphics",
+    "info": "I created two maps for this New Yorker/Van Alen Institute video about California&rsquo;s wildfire epidemic, one showing the extent of wildfire footprints around Santa Rosa and one illustrating wildfire risk zones statewide. I pulled geospatial data from <a href='http://www.fire.ca.gov/fire_prevention/fire_prevention_wildland_zones_maps'>CAL FIRE</a> and the US Census Bureau, processed it in R using the <a href='https://cran.r-project.org/web/packages/sf/'>sf</a> library, built the maps in D3 using shaded relief layers from <a href='http://srtm.csi.cgiar.org/srtmdata/'>SRTM</a>, and delivered them as SVGs to an animator who produced the final visuals that appeared in the video.",
+    "url": "https://video.newyorker.com/watch/fireproofing-the-future-in-california"
+  },
+  {
+    "title": "Since Parkland",
+    "category": "The Trace",
+    "date": "February 2019",
+    "image": { "src": "../img/since-parkland.png" },
+    "alt": "Since Parkland project homepage.",
+    "role": "Data and design",
+    "info": "This project, which tells the stories of more than a thousand children killed by gun violence, was a huge collaboration between The Trace, The Miami Herald/McClatchy, and more than 200 student journalists, with a standalone website built by <a href='https://www.upstatement.com/'>Upstatement</a>. I worked closely with the Upstatement team and fellow Trace staff to conceive the design and functionality of the project site — my contributions included key features such as the category-driven navigation and star motifs. I also coordinated a team-wide push to prepare the site&rsquo;s content for production using Google Docs and <a href='https://airtable.com/'>AirTable</a>.",
+    "url": "https://sinceparkland.org"
+  },
+  {
+    "title": "America’s Gun Stores Are Easy Targets for Thieves",
+    "category": "The Trace / The New Yorker",
+    "date": "February 2019",
+    "image": { "src": "../img/atf-trace-map.png" },
+    "alt": "Map of arrows representing the volume of guns traced between states.",
+    "role": "Data and graphics",
+    "info": "I worked with reporter Brian Freskos and The New Yorker's digital team to create two Mapbox maps for this multimedia feature built in React. The first illustrates <a href='https://www.atf.gov/resource-center/firearms-trace-data-2017'>ATF crime gun traces</a> by connecting states with swoopy arrows, which were drawn with <a href='http://turfjs.org/'>Turf.js</a> and baked out to GeoJSON files. The second uses a scroll-driven flyover to explore the locations where several dozen stolen guns were recovered.",
+    "url": "https://www.thetrace.org/features/gun-store-theft-trafficking-atf/"
+  },
+  {
+    "title": "An Atlas of American Gun Violence",
+    "category": "The Trace",
+    "date": "December 2018",
+    "image": { "src": "../img/gun-violence-map.png" },
+    "alt": "Map of shooting incidents in Brooklyn.",
+    "role": "Interactive",
+    "info": "Using a dataset provided by <a href='https://www.gunviolencearchive.org/'>Gun Violence Archive</a>, I built this interactive map of more than 150,000 shooting incidents spanning five years. To tackle the challenge of smoothly mapping that many points, I used the incredibly performant <a href='http://deck.gl'>deck.gl</a> library along with Mapbox, React, and Redux. A search feature shows users the number of shootings in their vicinity by linking the Mapbox geocoding API with <a href='http://turfjs.org/'>Turf.js</a>&rsquo;s geospatial analysis tools.",
+    "url": "https://www.thetrace.org/features/gun-violence-interactive-shootings-map/"
+  },
+  {
     "title": "The CDC Says Gun Injuries Are on the Rise. But There Are Big Problems With Its Data.",
     "category": "The Trace / FiveThirtyEight",
     "date": "October 2018",
     "image": { "src": "../img/cdc-injury-estimates.png" },
     "alt": "Chart comparing CDC firearm injury trends with two other pubic health databases.",
     "role": "Words and data",
-    "info": "<a href='https://twitter.com/sean_kev'>Sean Campbell</a> and I teamed up with FiveThirtyEight&lsquo;s quantitative editor <a href='https://twitter.com/quantmai'>Mai Nguyen</a> to investigate the flawed approach used by the CDC to generate estimates of nonfatal firearm injuries. We developed a methodology for comparing the trends indicated by the CDC&lsquo;s data with those in other public health datasets, and found that the high degree of uncertainty around the CDC&lsquo;s estimates had serious implications for public health research in the United States. The article was also published on <a href='https://fivethirtyeight.com/features/the-cdc-is-publishing-unreliable-data-on-gun-injuries-people-are-using-it-anyway/'>FiveThirtyEight</a>.",
+    "info": "<a href='https://twitter.com/sean_kev'>Sean Campbell</a> and I teamed up with FiveThirtyEight&rsquo;s quantitative editor <a href='https://twitter.com/quantmai'>Mai Nguyen</a> to investigate the flawed approach used by the CDC to generate estimates of nonfatal firearm injuries. We developed a methodology for comparing the trends indicated by the CDC&rsquo;s data with those in other public health datasets, and found that the high degree of uncertainty around the CDC&rsquo;s estimates had serious implications for public health research in the United States. The article was also published on <a href='https://fivethirtyeight.com/features/the-cdc-is-publishing-unreliable-data-on-gun-injuries-people-are-using-it-anyway/'>FiveThirtyEight</a>.",
     "url": "https://www.thetrace.org/2018/10/cdc-nonfatal-gun-injury-data-estimate-problems/"
   },
   {
@@ -16,7 +56,7 @@
     "image": { "src": "../img/nra-tracker.png" },
     "alt": "Table of NRA campaign finance data.",
     "role": "Interactive",
-    "info": "I built this news app to track the NRA&lsquo;s spending activity during the 2018 midterms, using data from the FEC and ProPublica&lsquo;s <a href='https://propublica.github.io/campaign-finance-api-docs/'>Campaign Finance API</a>. An accompanying <a href='https://twitter.com/nramoneybot'>Twitter bot</a> tweets every time new activity appears in the tracker. The project&lsquo;s serverless backend runs on AWS Lambda and the frontend was built in Svelte.",
+    "info": "I built this news app to track the NRA&rsquo;s spending activity during the 2018 midterms, using data from the FEC and ProPublica&rsquo;s <a href='https://propublica.github.io/campaign-finance-api-docs/'>Campaign Finance API</a>. An accompanying <a href='https://twitter.com/nramoneybot'>Twitter bot</a> tweeted every time new activity appears in the tracker, and also tweeted calls for key NRA races on election night. The project&rsquo;s serverless backend ran on AWS Lambda and the frontend was built in <a href='https://svelte.technology/'>Svelte</a>.",
     "url": "https://www.thetrace.org/features/nra-campaign-finance-tracker/"
   },
   {
@@ -26,7 +66,7 @@
     "image": { "src": "../img/nra-starboard-strategic.png" },
     "alt": "Chart visualizing the NRA's spending with a campaign finance contractor.",
     "role": "Graphics",
-    "info": "For <a href='https://twitter.com/mikespiesnyc'>Mike Spies&lsquo;</a> story on possible coordination between the NRA and its top election contractor, I created charts and an interactive explainer to illustrate the convoluted scheme. The reporting led nine U.S. senators to <a href='https://www.thetrace.org/2018/10/senators-call-for-investigation-into-nras-campaign-shell-game/'>call for an investigation</a> into the NRA&lsquo;s relationship with the firm. The article and accompanying graphics were also published in <a href='https://www.politico.com/magazine/story/2018/07/13/mystery-firm-nra-consultant-219004'>Politico</a>.",
+    "info": "For <a href='https://twitter.com/mikespiesnyc'>Mike Spies&rsquo;</a> story on the NRAs&rsquo;s dealings with its top election contractor, I created charts and an interactive explainer to illustrate the convoluted scheme. The reporting and subsequent follow-ups led to a <a href='https://www.thetrace.org/2019/02/nra-congressional-inquiry-illegal-coordination/'>congressional investigation</a> into the NRA&rsquo;s relationship with the firms. The article and accompanying graphics were also published in <a href='https://www.politico.com/magazine/story/2018/07/13/mystery-firm-nra-consultant-219004'>Politico</a>.",
     "url": "https://www.thetrace.org/2018/07/nra-campaign-finance-onmessage-starboard-strategic/"
   },
   {
@@ -36,17 +76,17 @@
     "image": { "src": "../img/florida-map.png" },
     "alt": "Map visualizing the NRA grades of Florida lawmakers.",
     "role": "Interactive",
-    "info": "For a feature on NRA lobbyist Marion Hammer, I collaborated with The New Yorker&lsquo;s digital team to create an interactive map illustrating the NRA grades of every Florida lawmaker. I sourced the data from the NRA&lsquo;s <a href='https://www.nrapvf.org/grades/'>archive</a>, and built the map with D3. The graphic was published on The Trace and in The New Yorker&lsquo;s <a href='https://www.newyorker.com/magazine/2018/03/05/the-nra-lobbyist-behind-floridas-pro-gun-policies'>version</a> of the article.",
+    "info": "For a feature on NRA lobbyist Marion Hammer, I collaborated with The New Yorker&rsquo;s digital team to create an interactive map illustrating the NRA grades of every Florida lawmaker. I sourced the data from the NRA&rsquo;s <a href='https://www.nrapvf.org/grades/'>archive</a>, and built the map with D3. The graphic was published on The Trace and in The New Yorker&rsquo;s <a href='https://www.newyorker.com/magazine/2018/03/05/the-nra-lobbyist-behind-floridas-pro-gun-policies'>version</a> of the article.",
     "url": "https://www.thetrace.org/features/nra-influence-florida-marion-hammer-gun-laws/"
   },
   {
     "title": "The Florida Loophole That Lets Thousands of People Banned From Guns Get Away With Lying on Background Checks",
-    "category": "The Trace / Scripps TV",
+    "category": "The Trace / EW Scripps",
     "date": "March 2018",
     "image": { "src": "../img/lie-and-try.jpg" },
     "role": "Words and data",
     "alt": "Photo illustration of a gun and a background check form.",
-    "info": "I partnered with Scripps reporter <a href='https://twitter.com/KatieLaGrone'>Katie LaGrone</a> to investigate a little-known loophole in Florida&lsquo;s firearm backround check system that prevents the state from prosecuting buyers for lying about their criminal histories. In addition to the article, a televised segment based on our reporting aired on three Scripps-owned stations in south Florida.",
+    "info": "I partnered with Scripps reporter <a href='https://twitter.com/KatieLaGrone'>Katie LaGrone</a> to investigate a little-known loophole in Florida&rsquo;s firearm backround check system that prevents the state from prosecuting buyers for lying about their criminal histories. In addition to the article, a televised segment based on our reporting aired on three Scripps-owned stations in south Florida.",
     "url": "https://www.thetrace.org/2018/03/florida-lie-and-try-loophole-background-check-denials/"
   },
   {
@@ -56,7 +96,7 @@
     "image": { "src": "../img/congress-statements.png" },
     "role": "Words and interactive",
     "alt": "Interactive analysis of the language used in statements by members of Congress following mass shootings.",
-    "info": "After the Parkland shooting, I wanted to find out how prevalent the widely mocked phrase &ldquo;thoughts and prayers&rdquo; actually was. So I used ProPublica&lsquo;s <a href='https://projects.propublica.org/api-docs/congress-api/'>Congress API</a> to find the text of more than 800 statements released by members of Congress in the aftermath of mass shootings. My analysis found that two-thirds of all the statements contain the word &ldquo;pray&rdquo; – and also that Marco Rubio is the only Republican ever to utter the words &ldquo;gun control&rdquo; after a mass shooting. As the final step of the interactive, a search interface lets users query the data themselves.",
+    "info": "After the Parkland shooting, I wanted to find out how prevalent the widely mocked phrase &ldquo;thoughts and prayers&rdquo; actually was. So I used ProPublica&rsquo;s <a href='https://projects.propublica.org/api-docs/congress-api/'>Congress API</a> to find the text of more than 800 statements released by members of Congress in the aftermath of mass shootings. My analysis found that two-thirds of all the statements contain the word &ldquo;pray&rdquo; — and also that Marco Rubio is the only Republican ever to utter the words &ldquo;gun control&rdquo; after a mass shooting. As the final step of the interactive, a search interface lets users query the data themselves.",
     "url": "https://www.thetrace.org/2018/02/congress-members-statements-mass-shootings/"
   },
   {
@@ -66,7 +106,7 @@
     "image": { "src": "../img/bump-stock-comments.jpg" },
     "role": "Words and graphics",
     "alt": "Chart showing the breakdown of 36,000 public comments posted in response to a proposed ban on bump stocks.",
-    "info": "The public comment period for a proposed ATF regulation to regulate bump stocks as machine guns – effectively a ban – drew more than 36,000 comments. My colleague <a href='https://twitter.com/sean_kev'>Sean Campbell</a> and I scraped the text of these comments and, using a combination of Python scripts and hand-tagging, calculated the share of comments for and against the regulation, as well as the percent that were unique or form letters. We found that the responses were overwhelmingly opposed to the regulation, backing up previous <a href='https://www.thetrace.org/rounds/pro-gun-men-react-mass-shootings/'>research</a> which found that gun rights supporters are more politically engaged than their opponents.",
+    "info": "The public comment period for a proposed ATF regulation to regulate bump stocks as machine guns — effectively a ban — drew more than 36,000 comments. My colleague <a href='https://twitter.com/sean_kev'>Sean Campbell</a> and I scraped the text of these comments and, using a combination of Python scripts and hand-tagging, calculated the share of comments for and against the regulation, as well as the percent that were unique or form letters. We found that the responses were overwhelmingly opposed to the regulation, backing up previous <a href='https://www.thetrace.org/rounds/pro-gun-men-react-mass-shootings/'>research</a> which found that gun rights supporters are more politically engaged than their opponents.",
     "url": "https://www.thetrace.org/rounds/atf-bump-stock-regulation-comments-analysis/"
   },
   {
@@ -76,7 +116,7 @@
     "image": { "src": "../img/missing-pieces.png" },
     "role": "Interactive",
     "alt": "Interactive data visualization about gun theft in major U.S. cities.",
-    "info": "The Trace&lsquo;s <a href='https://twitter.com/BrianFreskos'>Brian Freskos</a> launched an enormous investigation into gun theft by requesting data on stolen and recovered guns from hundreds of law enforcement agencies around the country. I helped to clean and analyze that data, writing scripts to normalize hundreds of spelling variations, identify errors in serial numbers, and comb through the records to match stolen and recovered firearms. We <a href='https://www.thetrace.org/missing-pieces/'>partnered</a> with more than a dozen NBC stations, who used the data, as well as graphics I produced, to report on gun theft in cities around the country. We also <a href='https://www.thetrace.org/missing-pieces-data'>published the raw data</a>. This project was awarded Best Reporting by Independent Digital Media at the <a href='http://www.deadlineclub.org/2018-winners/'>2018 Deadline Club Awards</a>.",
+    "info": "The Trace&rsquo;s <a href='https://twitter.com/BrianFreskos'>Brian Freskos</a> launched an enormous investigation into gun theft by requesting data on stolen and recovered guns from hundreds of law enforcement agencies around the country. I helped to clean and analyze that data, writing scripts to normalize hundreds of spelling variations, identify errors in serial numbers, and comb through the records to match stolen and recovered firearms. We <a href='https://www.thetrace.org/missing-pieces/'>partnered</a> with more than a dozen NBC stations, who used the data, as well as graphics I produced, to report on gun theft in cities around the country. We also <a href='https://www.thetrace.org/missing-pieces-data'>published the raw data</a>. This project was awarded Best Reporting by Independent Digital Media at the <a href='http://www.deadlineclub.org/2018-winners/'>2018 Deadline Club Awards</a>.",
     "url": "https://www.thetrace.org/features/stolen-guns-violent-crime-america/#interactive"
   },
   {
@@ -96,11 +136,11 @@
     "image": { "src": "../img/three-body-problem.jpg" },
     "alt": "An image of the simulated gravitational interaction of three bodies.",
     "role": "Interactive",
-    "info": "As I was reading Liu Cixin&lsquo;s <em><a href='https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)'>The Three-Body Problem</a></em>, I wanted to get a better understanding of the mechanics of the actual <a href='https://en.wikipedia.org/wiki/Three-body_problem'>three-body problem</a>. So using three.js, React, and a dim recollection of physics I learned in a college astronomy class, I built a little website to simulate it. You can see the code for the project <a href='https://github.com/dnass/threebody'>here</a>.",
+    "info": "As I was reading Liu Cixin&rsquo;s <em><a href='https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)'>The Three-Body Problem</a></em>, I wanted to get a better understanding of the mechanics of the actual <a href='https://en.wikipedia.org/wiki/Three-body_problem'>three-body problem</a>. So using three.js, React, and a dim recollection of physics I learned in a college astronomy class, I built a little website to simulate it. You can see the code for the project <a href='https://github.com/dnass/threebody'>here</a>.",
     "url": "http://threebody.solutions"
   },
   {
-    "title": "Visualising Cambodia&lsquo;s national budget",
+    "title": "Visualising Cambodia&rsquo;s national budget",
     "category": "The Phnom Penh Post",
     "date": "November 2016",
     "image": { "src": "../img/cambodia-national-budget.png" },
@@ -110,13 +150,13 @@
     "url": "http://www.phnompenhpost.com/national/interactive-visualising-cambodias-national-budget"
   },
   {
-    "title": "History of crimes, ineptitude for Cambodia&lsquo;s flag of convenience scheme",
+    "title": "History of crimes, ineptitude for Cambodia&rsquo;s flag of convenience scheme",
     "category": "The Phnom Penh Post",
     "date": "September 2016",
     "image": { "src": "../img/cambodia-flag-convenience.jpg" },
     "role": "Words and graphics",
     "alt": "A map of a Cambodian ship's movements between China and North Korea.",
-    "info": "Until 2016, Cambodia ran a flag of convenience program, under which foreign nationals could register their ships to fly the Cambodian flag. To investigate the program&lsquo;s shady history, I scraped GPS tracking data for hundreds of Cambodian-flagged vessels, which reporter <a href='https://twitter.com/jackoozell'>Jack Davies</a> and I combed through to identify ships that had called at ports in North Korea and Crimea. I also designed the article&lsquo;s maps.",
+    "info": "Until 2016, Cambodia ran a flag of convenience program, under which foreign nationals could register their ships to fly the Cambodian flag. To investigate the program&rsquo;s shady history, I scraped GPS tracking data for hundreds of Cambodian-flagged vessels, which reporter <a href='https://twitter.com/jackoozell'>Jack Davies</a> and I combed through to identify ships that had called at ports in North Korea and Crimea. I also designed the article&rsquo;s maps.",
     "url": "http://www.phnompenhpost.com/national/history-crimes-ineptitude-cambodias-flag-convenience-scheme"
   },
   {
@@ -126,27 +166,27 @@
     "image": { "src": "../img/changing-face-phnom-penh.png" },
     "role": "Interactive",
     "alt": "Satellite map presentation showcasing timelapses of major infrastructure developments in Phnom Penh.",
-    "info": "The city of Phnom Penh is being dramatically – and often violently – transformed by large-scale construction and land reclamation projects. For this interactive, I created immersive time lapses of Google Earth satellite imagery to illustrate the city&lsquo;s astonishing pace of growth. A locator map built in Mapbox provides geographic context.",
+    "info": "The city of Phnom Penh is being dramatically — and often violently — transformed by large-scale construction and land reclamation projects. For this interactive, I created immersive time lapses of Google Earth satellite imagery to illustrate the city&rsquo;s astonishing pace of growth. A locator map built in Mapbox provides geographic context.",
     "url": "http://www.phnompenhpost.com/multimedia/changing-face-phnom-penh/"
   },
   {
-    "title": "Inside the Hun family&lsquo;s business empire",
+    "title": "Inside the Hun family&rsquo;s business empire",
     "category": "The Phnom Penh Post",
     "date": "July 2016",
     "image": { "src": "../img/hun-family-business-empire.png" },
     "role": "Interactive",
     "alt": "Visualization of the business holdings of Cambodian Prime Minister Hun Sen's extended family.",
-    "info": "A Global Witness <a href='https://www.globalwitness.org/en/reports/hostile-takeover/'>report</a> detailing the vast business holdings of Hun Sen&lsquo;s extended family formed the basis for this interactive (my first ever D3 project) which was featured on <a href='http://datadrivenjournalism.net/featured_projects/wheel_of_fortune_cambodian_data_journalists_visualize_the_ruling_familys_co'>Data Driven Journalism</a>. This article was also <a href='https://www.postkhmer.com/%E1%9E%96%E1%9F%90%E1%9E%8F%E1%9F%8C%E1%9E%98%E1%9E%B6%E1%9E%93%E1%9E%87%E1%9E%B6%E1%9E%8F%E1%9E%B7/%E1%9E%A2%E1%9E%B6%E1%9E%8E%E1%9E%B6%E1%9E%85%E1%9E%80%E1%9F%92%E1%9E%9A%E1%9E%87%E1%9F%86%E1%9E%93%E1%9E%BD%E1%9E%89%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%80%E1%9E%BC%E1%9E%9B-%E1%9E%A0%E1%9F%8A%E1%9E%BB%E1%9E%93-%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%BC%E1%9E%9C%E1%9E%94%E1%9E%B6%E1%9E%93%E1%9E%9B%E1%9E%B6%E1%9E%8F%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%8A%E1%9E%B6%E1%9E%84%E1%9E%8A%E1%9F%84%E1%9E%99-globalwitness'>published in Khmer</a>.",
+    "info": "A Global Witness <a href='https://www.globalwitness.org/en/reports/hostile-takeover/'>report</a> detailing the vast business holdings of Hun Sen&lsquo;s extended family served as the basis for this interactive, my first ever D3 project. This article was also <a href='https://www.postkhmer.com/%E1%9E%96%E1%9F%90%E1%9E%8F%E1%9F%8C%E1%9E%98%E1%9E%B6%E1%9E%93%E1%9E%87%E1%9E%B6%E1%9E%8F%E1%9E%B7/%E1%9E%A2%E1%9E%B6%E1%9E%8E%E1%9E%B6%E1%9E%85%E1%9E%80%E1%9F%92%E1%9E%9A%E1%9E%87%E1%9F%86%E1%9E%93%E1%9E%BD%E1%9E%89%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%80%E1%9E%BC%E1%9E%9B-%E1%9E%A0%E1%9F%8A%E1%9E%BB%E1%9E%93-%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%BC%E1%9E%9C%E1%9E%94%E1%9E%B6%E1%9E%93%E1%9E%9B%E1%9E%B6%E1%9E%8F%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%8A%E1%9E%B6%E1%9E%84%E1%9E%8A%E1%9F%84%E1%9E%99-globalwitness'>published in Khmer</a>.",
     "url": "http://www.phnompenhpost.com/national/inside-hun-familys-business-empire#interactive"
   },
   {
-    "title": "Only 20 percent of PM’s recent Facebook &lsquo;likes&rsquo; from Cambodia",
+    "title": "Only 20 percent of PM&rsquo;s recent Facebook &lsquo;likes&rsquo; from Cambodia",
     "category": "The Phnom Penh Post",
     "date": "March 2016",
     "image": { "src": "../img/hun-sen-fb.jpg" },
     "role": "Words and graphics",
     "alt": "Bar chart comparing Facebook likes of Hun Sen and Sam Rainsy.",
-    "info": "In 2016, Cambodian Prime Minister Hun Sen was engaged in a Facebook popularity war with then-opposition leader Sam Rainsy. Using data from a social media <a href='https://www.socialbakers.com/statistics/facebook/pages/detail/111975152184324-samdech-hun-sen-cambodian-prime-minister'>analytics site</a>, I discovered that hundreds of thousands of the Prime Minister&lsquo;s Facebook likes had come from countries outside of Cambodia, such as India and the Philippines. The story sparked <a href='http://www.bbc.com/news/world-asia-35839701'>international</a> <a href='http://www.newsweek.com/cambodia-hun-sen-facebook-sam-rainsy-438294'>coverage</a> and led to a legal dispute that between Sam Rainsy and Hun Sen that is <a href='https://www.reuters.com/article/us-facebook-cambodia/facebook-runs-into-lawsuit-over-cambodian-politics-idUSKBN1FT1PB'>still ongoing</a>. This article was also <a href='https://www.postkhmer.com/%E1%9E%96%E1%9F%90%E1%9E%8F%E1%9F%8C%E1%9E%98%E1%9E%B6%E1%9E%93%E1%9E%87%E1%9E%B6%E1%9E%8F%E1%9E%B7/%E1%9E%A2%E1%9F%92%E1%9E%93%E1%9E%80%E1%9E%82%E1%9E%B6%E1%9F%86%E1%9E%91%E1%9F%92%E1%9E%9A%E1%9E%A0%E1%9F%92%E1%9E%9C%E1%9F%81%E1%9E%9F%E1%9E%94%E1%9F%8A%E1%9E%BB%E1%9E%80%E1%9E%93%E1%9E%B6%E1%9E%99%E1%9E%80%E1%9E%9A%E1%9E%8A%E1%9F%92%E1%9E%8B%E1%9E%98%E1%9E%93%E1%9F%92%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%B8-%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%BC%E1%9E%9C%E1%9E%94%E1%9E%B6%E1%9E%93%E1%9E%82%E1%9F%81%E1%9E%9A%E1%9E%80%E1%9E%83%E1%9E%BE%E1%9E%89%E1%9E%90%E1%9E%B6-%E1%9E%87%E1%9E%B6%E1%9E%84%E1%9E%96%E1%9E%B6%E1%9E%80%E1%9F%8B%E1%9E%80%E1%9E%8E%E1%9F%92%E1%9E%8A%E1%9E%B6%E1%9E%9B%E1%9E%98%E1%9E%B6%E1%9E%93%E1%9E%94%E1%9F%92%E1%9E%9A%E1%9E%97%E1%9E%96%E1%9E%98%E1%9E%80%E1%9E%96%E1%9E%B8%E1%9E%94%E1%9E%9A%E1%9E%91%E1%9F%81%E1%9E%9F'>published in Khmer</a>.",
+    "info": "In 2016, Cambodian Prime Minister Hun Sen was engaged in a Facebook popularity war with then-opposition leader Sam Rainsy. Using data from a social media <a href='https://www.socialbakers.com/statistics/facebook/pages/detail/111975152184324-samdech-hun-sen-cambodian-prime-minister'>analytics site</a>, I discovered that hundreds of thousands of the Prime Minister&rsquo;s Facebook likes had come from countries outside of Cambodia, such as India and the Philippines. The story sparked <a href='http://www.bbc.com/news/world-asia-35839701'>international</a> <a href='http://www.newsweek.com/cambodia-hun-sen-facebook-sam-rainsy-438294'>coverage</a> and led to a legal dispute that between Sam Rainsy and Hun Sen that is <a href='https://www.reuters.com/article/us-facebook-cambodia/facebook-runs-into-lawsuit-over-cambodian-politics-idUSKBN1FT1PB'>still ongoing</a>. This article was also <a href='https://www.postkhmer.com/%E1%9E%96%E1%9F%90%E1%9E%8F%E1%9F%8C%E1%9E%98%E1%9E%B6%E1%9E%93%E1%9E%87%E1%9E%B6%E1%9E%8F%E1%9E%B7/%E1%9E%A2%E1%9F%92%E1%9E%93%E1%9E%80%E1%9E%82%E1%9E%B6%E1%9F%86%E1%9E%91%E1%9F%92%E1%9E%9A%E1%9E%A0%E1%9F%92%E1%9E%9C%E1%9F%81%E1%9E%9F%E1%9E%94%E1%9F%8A%E1%9E%BB%E1%9E%80%E1%9E%93%E1%9E%B6%E1%9E%99%E1%9E%80%E1%9E%9A%E1%9E%8A%E1%9F%92%E1%9E%8B%E1%9E%98%E1%9E%93%E1%9F%92%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%B8-%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%BC%E1%9E%9C%E1%9E%94%E1%9E%B6%E1%9E%93%E1%9E%82%E1%9F%81%E1%9E%9A%E1%9E%80%E1%9E%83%E1%9E%BE%E1%9E%89%E1%9E%90%E1%9E%B6-%E1%9E%87%E1%9E%B6%E1%9E%84%E1%9E%96%E1%9E%B6%E1%9E%80%E1%9F%8B%E1%9E%80%E1%9E%8E%E1%9F%92%E1%9E%8A%E1%9E%B6%E1%9E%9B%E1%9E%98%E1%9E%B6%E1%9E%93%E1%9E%94%E1%9F%92%E1%9E%9A%E1%9E%97%E1%9E%96%E1%9E%98%E1%9E%80%E1%9E%96%E1%9E%B8%E1%9E%94%E1%9E%9A%E1%9E%91%E1%9F%81%E1%9E%9F'>published in Khmer</a>.",
     "url": "http://www.phnompenhpost.com/national/only-20-cent-pms-recent-facebook-likes-cambodia"
   }
 ]
