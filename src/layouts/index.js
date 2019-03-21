@@ -10,11 +10,19 @@ import './style.css'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
 export default ({ children, location }) => {
-  const { site } = useStaticQuery(graphql`
+  const { site, allFile } = useStaticQuery(graphql`
     query {
       site {
         siteMetadata {
           title
+          description
+        }
+      }
+      allFile(filter: { name: { eq: "share" } }) {
+        edges {
+          node {
+            publicURL
+          }
         }
       }
     }
@@ -22,17 +30,23 @@ export default ({ children, location }) => {
 
   return (
     <>
-      <Helmet
-        titleTemplate={`${site.siteMetadata.title} | %s`}
-        meta={[
-          {
-            name: 'description',
-            content:
-              'Visual journalist Daniel Nass creates interactive and data-driven stories.'
-          },
-          { name: 'author', content: 'Daniel Nass' }
-        ]}
-      />
+      <Helmet>
+        <meta name="description" content={site.siteMetadata.description} />
+        <meta name="author" content="Daniel Nass" />
+        <meta
+          property="og:description"
+          content={site.siteMetadata.description}
+        />
+        <meta
+          property="og:image"
+          content={`https://danielnass.net${allFile.edges[0].node.publicURL}`}
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:image"
+          content={`https://danielnass.net/${allFile.edges[0].node.publicURL}`}
+        />
+      </Helmet>
       <div className="avenir center-l ph3-l mw8-l mh4-m mh2">
         <Header />
         <Transition location={location}>{children}</Transition>

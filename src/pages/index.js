@@ -1,11 +1,11 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Link from '../components/link'
+import Title from '../components/title'
 
 export default ({ data }) => (
   <main className="mb3 flex flex-wrap">
-    <Helmet title="Portfolio" />
+    <Title title="Daniel Nass | Portfolio" />
     {data.allProjectsJson.edges.map(({ node }) => (
       <Link key={node.title} {...node} />
     ))}

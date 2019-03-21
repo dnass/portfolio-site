@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Daniel Nass`,
-    subtitle: `News ⧉ Data ⧉ Graphics ⧉ Code`
+    subtitle: `News ⧉ Data ⧉ Graphics ⧉ Code`,
+    description: `Visual journalist Daniel Nass creates interactive and data-driven stories.`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
