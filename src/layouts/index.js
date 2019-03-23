@@ -47,7 +47,7 @@ export default ({ children, location }) => {
           content={`https://danielnass.net/${allFile.edges[0].node.publicURL}`}
         />
       </Helmet>
-      <div className="avenir center-l ph3-l mw8-l mh4-m mh2">
+      <div className="avenir center-l ph3-l mw8-l mh4-m mh2 black-80">
         <Header />
         <Transition location={location}>{children}</Transition>
         <Footer />

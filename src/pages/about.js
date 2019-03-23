@@ -4,8 +4,8 @@ import Img from 'gatsby-image'
 import Title from '../components/title'
 
 export default ({ data }) => (
-  <main className="mt5 mb3 mb5-l f4 black-80 lh-copy flex flex-column flex-row-l items-center">
-    <Title title="Daniel Nass | About" />
+  <main className="mt5 mb3 mb5-l f4 lh-copy flex flex-column flex-row-l items-center">
+    <Title page="About" />
     <div className="w-100 w-60-l mr4-l mb0-l">
       <Img
         className="br3"

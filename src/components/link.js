@@ -4,7 +4,7 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Link = ({ title, url, image, alt, category, date, role, info }) => (
-  <section className="w-100 ph4-ns ph2 pv4 black-80 flex flex-column flex-row-ns bt b--light-gray">
+  <section className="ph4-ns ph2 pv4 flex flex-column flex-row-ns bt b--light-gray">
     <OutboundLink
       href={url}
       target="_blank"
