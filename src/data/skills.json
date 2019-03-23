@@ -1,0 +1,18 @@
+[
+  { "skill": "JavaScript" },
+  { "skill": "Node.js" },
+  { "skill": "React" },
+  { "skill": "Redux" },
+  { "skill": "D3" },
+  { "skill": "Svelte" },
+  { "skill": "Webpack" },
+  { "skill": "HTML5" },
+  { "skill": "CSS" },
+  { "skill": "Sass" },
+  { "skill": "ARIA" },
+  { "skill": "AWS" },
+  { "skill": "Serverless" },
+  { "skill": "R" },
+  { "skill": "Python" },
+  { "skill": "Mapping" }
+]
