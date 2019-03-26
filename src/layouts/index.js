@@ -44,7 +44,7 @@ export default ({ children, location }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:image"
-          content={`https://danielnass.net/${allFile.edges[0].node.publicURL}`}
+          content={`https://danielnass.net${allFile.edges[0].node.publicURL}`}
         />
       </Helmet>
       <div className="avenir center-l ph3-l mw8-l mh4-m mh2 black-80">
