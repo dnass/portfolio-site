@@ -2,7 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `Daniel Nass`,
     subtitle: `News ⧉ Data ⧉ Graphics ⧉ Code`,
-    description: `Visual journalist Daniel Nass creates interactive and data-driven stories.`
+    description: `Visual journalist Daniel Nass creates interactive and data-driven stories.`,
+    phone: `(781) 354-6246`,
+    email: `dnlnss [at] gmail [dot] com`,
+    location: `Brooklyn, N.Y.`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

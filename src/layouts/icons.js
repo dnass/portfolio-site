@@ -1,7 +1,10 @@
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import {
   faEnvelopeSquare,
-  faExternalLinkAlt
+  faExternalLinkAlt,
+  faPhone,
+  faEnvelope,
+  faMapMarkerAlt
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faTwitterSquare,
@@ -16,5 +19,8 @@ library.add(
   faEnvelopeSquare,
   faTwitterSquare,
   faGithubSquare,
-  faLinkedin
+  faLinkedin,
+  faPhone,
+  faEnvelope,
+  faMapMarkerAlt
 )

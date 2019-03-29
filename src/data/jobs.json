@@ -12,6 +12,61 @@
         "dates": "August 2017 – November 2018"
       }
     ],
-    "description": "Developed news apps, interactives, and newsroom tools. Led and contributed to data-driven investigations. Collaborated widely across the newsroom and in partnership with other media organizations. Received <a href='http://deadlineclub.org/2018-winners/'>2018 Deadline Club award</a> for <a href='https://www.thetrace.org/features/stolen-guns-violent-crime-america/'>Missing Pieces</a>."
+    "description": "Designed and developed interactives, charts, and newsroom tools. Contributed to data-driven investigations at the intersection of gun violence and criminal justice, public health, and campaign finance. Collaborated widely within the newsroom and in partnership with other media organizations. Received <a href='http://deadlineclub.org/2018-winners/'>2018 Deadline Club award</a>."
+  },
+  {
+    "company": "The Phnom Penh Post",
+    "location": "Phnom Penh, Cambodia",
+    "positions": [
+      {
+        "title": "Web editor",
+        "dates": "October 2015 – December 2016"
+      }
+    ],
+    "description": "Designed and built interactives, graphics, and feature articles. Developed digital newsroom strategy and achieved significant growth in online traffic. Trained and supervised digital intern."
+  },
+  {
+    "company": "Radio One Cambodia",
+    "location": "Phnom Penh, Cambodia",
+    "positions": [
+      {
+        "title": "Lead producer; digital director",
+        "dates": "December 2014 – July 2015"
+      }
+    ],
+    "description": "Redesigned and maintained station website; improved livestreaming to grow online listenership. Recorded and edited radio content, including shows, ad spots, and interviews."
+  },
+  {
+    "company": "Spy Pond Productions",
+    "location": "Boston, Mass.",
+    "positions": [
+      {
+        "title": "Editor; production assistant",
+        "dates": "August 2013 – July 2014"
+      }
+    ],
+    "description": "Conducted research and post-production work for a feature-length television documentary. Contributed editing to several other documentaries."
+  },
+  {
+    "company": "Boston Academy of English",
+    "location": "Boston, Mass.",
+    "positions": [
+      {
+        "title": "Instructor",
+        "dates": "December 2013 – June 2014"
+      }
+    ],
+    "description": "Developed lessons and materials to teach English to international groups of adults."
+  },
+  {
+    "company": "The Chipstone Foundation",
+    "location": "Milwaukee, Wis.",
+    "positions": [
+      {
+        "title": "Filmmaker",
+        "dates": "May 2012 — May 2014"
+      }
+    ],
+    "description": "Directed and produced a series of documentary shorts about artists and material culture."
   }
 ]

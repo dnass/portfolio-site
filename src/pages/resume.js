@@ -1,53 +1,51 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { graphql } from 'gatsby'
+import Helmet from 'react-helmet'
 import Title from '../components/title'
-import Section from '../components/resumesection'
+import Contact from '../components/resume/contact'
+import Section from '../components/resume/section'
+import Job from '../components/resume/job'
+import Position from '../components/resume/position'
 
 export default ({ data }) => {
   return (
     <main className="mb3 flex flex-wrap bt b--light-gray">
       <Title page="Resume" />
+      <Helmet>
+        <meta name="robots" content="noindex" />
+      </Helmet>
+      <section className="w-100 pt5 pb2 flex-ns justify-center">
+        <Contact text={data.site.siteMetadata.location} icon="map-marker-alt" />
+        <Contact text={data.site.siteMetadata.phone} icon="phone" />
+        <Contact text={data.site.siteMetadata.email} icon="envelope" />
+      </section>
       <Section title="experience">
         {data.allJobsJson.edges.map(
           ({ node: { company, location, description, positions } }) => (
-            <>
-              <h4 className="db w-70-ns ma0 mb3 f4">
-                {company}
-                &ensp;&bull;&ensp;
-                {location}
-              </h4>
+            <Fragment key={company}>
+              <Job name={company} location={location} />
               {positions.map(({ dates, title }) => (
-                <h5 className="w-100 ma0 mb2-ns mb3 f5 flex-ns flex-row-ns justify-between-ns items-center-ns">
-                  <span className="w-25-ns dib-ns db tr-ns f6 fw3 mb0-ns mb1 black-50">
-                    {dates}
-                  </span>
-                  <span className="w-70-ns dib-ns db ma0 fw4">{title}</span>
-                </h5>
+                <Position key={title} title={title} dates={dates} />
               ))}
               <div
                 className="w-70-ns mt2 f5 lh-copy"
-                dangerouslySetInnerHTML={{ __html: description }}
+                dangerouslySetInnerHTML={{
+                  __html: description
+                    .split('a href')
+                    .join("a target='_blank' rel='noopener noreferrer' href")
+                }}
               />
-            </>
+            </Fragment>
           )
         )}
       </Section>
       <Section title="Education">
         {data.allEducationJson.edges.map(
           ({ node: { school, location, dates, degree } }) => (
-            <>
-              <h4 className="db w-70-ns ma0 mb3 f4">
-                {school}
-                &ensp;&bull;&ensp;
-                {location}
-              </h4>
-              <h5 className="w-100 ma0 mb2-ns mb3 f5 flex-ns flex-row-ns justify-between-ns items-center-ns">
-                <span className="w-25-ns dib-ns db tr-ns f6 fw3 mb0-ns mb1 black-50">
-                  {dates}
-                </span>
-                <span className="w-70-ns dib-ns db ma0 fw4">{degree}</span>
-              </h5>
-            </>
+            <Fragment key={school}>
+              <Job name={school} location={location} />
+              <Position title={degree} dates={dates} />
+            </Fragment>
           )
         )}
       </Section>
@@ -66,6 +64,13 @@ export default ({ data }) => {
 
 export const query = graphql`
   {
+    site {
+      siteMetadata {
+        phone
+        email
+        location
+      }
+    }
     allJobsJson {
       edges {
         node {
