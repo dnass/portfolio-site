@@ -40,16 +40,6 @@
     "url": "https://www.thetrace.org/features/gun-violence-interactive-shootings-map/"
   },
   {
-    "title": "The CDC Says Gun Injuries Are on the Rise. But There Are Big Problems With Its Data.",
-    "category": "The Trace / FiveThirtyEight",
-    "date": "October 2018",
-    "image": { "src": "../img/cdc-injury-estimates.png" },
-    "alt": "Chart comparing CDC firearm injury trends with two other pubic health databases.",
-    "role": "Words and data",
-    "info": "<a href='https://twitter.com/sean_kev'>Sean Campbell</a> and I teamed up with FiveThirtyEight&rsquo;s quantitative editor <a href='https://twitter.com/quantmai'>Mai Nguyen</a> to investigate the flawed approach used by the CDC to generate estimates of nonfatal firearm injuries. We developed a methodology for comparing the trends indicated by the CDC&rsquo;s data with those in other public health datasets, and found that the high degree of uncertainty around the CDC&rsquo;s estimates had serious implications for public health research in the United States. The article was also published on <a href='https://fivethirtyeight.com/features/the-cdc-is-publishing-unreliable-data-on-gun-injuries-people-are-using-it-anyway/'>FiveThirtyEight</a>.",
-    "url": "https://www.thetrace.org/2018/10/cdc-nonfatal-gun-injury-data-estimate-problems/"
-  },
-  {
     "title": "NRA Campaign Spending Tracker",
     "category": "The Trace",
     "date": "July – November 2018",
@@ -58,6 +48,16 @@
     "role": "Interactive",
     "info": "I built this news app to track the NRA&rsquo;s spending activity during the 2018 midterms, using data from the FEC and ProPublica&rsquo;s <a href='https://propublica.github.io/campaign-finance-api-docs/'>Campaign Finance API</a>. An accompanying <a href='https://twitter.com/nramoneybot'>Twitter bot</a> tweeted every time new activity appears in the tracker, and also tweeted calls for key NRA races on election night. The project&rsquo;s serverless backend ran on AWS Lambda and the frontend was built in <a href='https://svelte.technology/'>Svelte</a>.",
     "url": "https://www.thetrace.org/features/nra-campaign-finance-tracker/"
+  },
+  {
+    "title": "The CDC Says Gun Injuries Are on the Rise. But There Are Big Problems With Its Data.",
+    "category": "The Trace / FiveThirtyEight",
+    "date": "October 2018",
+    "image": { "src": "../img/cdc-injury-estimates.png" },
+    "alt": "Chart comparing CDC firearm injury trends with two other pubic health databases.",
+    "role": "Words and data",
+    "info": "<a href='https://twitter.com/sean_kev'>Sean Campbell</a> and I teamed up with FiveThirtyEight&rsquo;s quantitative editor <a href='https://twitter.com/quantmai'>Mai Nguyen</a> to investigate the flawed approach used by the CDC to generate estimates of nonfatal firearm injuries. We developed a methodology for comparing the trends indicated by the CDC&rsquo;s data with those in other public health datasets, and found that the high degree of uncertainty around the CDC&rsquo;s estimates had serious implications for public health research in the United States. The article was also published on <a href='https://fivethirtyeight.com/features/the-cdc-is-publishing-unreliable-data-on-gun-injuries-people-are-using-it-anyway/'>FiveThirtyEight</a>.",
+    "url": "https://www.thetrace.org/2018/10/cdc-nonfatal-gun-injury-data-estimate-problems/"
   },
   {
     "title": "The Mystery Firm That Has Become the NRA’s Top Election Consultant",
