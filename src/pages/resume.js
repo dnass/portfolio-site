@@ -10,7 +10,7 @@ import Position from '../components/resume/position'
 export default ({ data }) => {
   return (
     <main className="mb3 flex flex-wrap bt b--light-gray">
-      <Title page="Resume" />
+      <Title page="Résumé" />
       <Helmet>
         <meta name="robots" content="noindex" />
       </Helmet>

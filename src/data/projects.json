@@ -26,7 +26,7 @@
     "image": { "src": "../img/atf-trace-map.png" },
     "alt": "Map of arrows representing the volume of guns traced between states.",
     "role": "Data and graphics",
-    "info": "I worked with reporter Brian Freskos and The New Yorker's digital team to create two Mapbox maps for this multimedia feature built in React. The first illustrates <a href='https://www.atf.gov/resource-center/firearms-trace-data-2017'>ATF crime gun traces</a> by connecting states with swoopy arrows, which were drawn with <a href='http://turfjs.org/'>Turf.js</a> and baked out to GeoJSON files. The second uses a scroll-driven flyover to explore the locations where several dozen stolen guns were recovered.",
+    "info": "I worked with reporter Brian Freskos and The New Yorker&rsquo;s digital team to create two Mapbox maps for this multimedia feature built in React. The first illustrates <a href='https://www.atf.gov/resource-center/firearms-trace-data-2017'>ATF crime gun traces</a> by connecting states with swoopy arrows, which were drawn with <a href='http://turfjs.org/'>Turf.js</a> and baked out to GeoJSON files. The second uses a scroll-driven flyover to explore the locations where several dozen stolen guns were recovered.",
     "url": "https://www.thetrace.org/features/gun-store-theft-trafficking-atf/"
   },
   {
@@ -36,7 +36,7 @@
     "image": { "src": "../img/gun-violence-map.png" },
     "alt": "Map of shooting incidents in Brooklyn.",
     "role": "Interactive",
-    "info": "Using a dataset provided by <a href='https://www.gunviolencearchive.org/'>Gun Violence Archive</a>, I built this interactive map of more than 150,000 shooting incidents spanning five years. To tackle the challenge of smoothly mapping that many points, I used the incredibly performant <a href='http://deck.gl'>deck.gl</a> library along with Mapbox, React, and Redux. A search feature shows users the number of shootings in their vicinity by linking the Mapbox geocoding API with <a href='http://turfjs.org/'>Turf.js</a>&rsquo;s geospatial analysis tools.",
+    "info": "Using a dataset provided by <a href='https://www.gunviolencearchive.org/'>Gun Violence Archive</a>, I built this interactive map of more than 150,000 shooting incidents spanning five years. To tackle the challenge of smoothly mapping that many points, I used the incredibly performant <a href='http://deck.gl'>deck.gl</a> library along with Mapbox, React, and Redux. A search feature shows users the number of shootings in their vicinity by linking the Mapbox geocoding API with <a href='http://turfjs.org/'>Turf.js</a>&rsquo;s geospatial analysis tools. I did a <a href='https://blog.mapbox.com/visualizing-gun-violence-in-america-bb36021b3aae'>Q&A about this project</a> that was published on Mapbox&rsquo;s Points of Interest blog.",
     "url": "https://www.thetrace.org/features/gun-violence-interactive-shootings-map/"
   },
   {
@@ -56,7 +56,7 @@
     "image": { "src": "../img/cdc-injury-estimates.png" },
     "alt": "Chart comparing CDC firearm injury trends with two other pubic health databases.",
     "role": "Words and data",
-    "info": "<a href='https://twitter.com/sean_kev'>Sean Campbell</a> and I teamed up with FiveThirtyEight&rsquo;s quantitative editor <a href='https://twitter.com/quantmai'>Mai Nguyen</a> to investigate the flawed approach used by the CDC to generate estimates of nonfatal firearm injuries. We developed a methodology for comparing the trends indicated by the CDC&rsquo;s data with those in other public health datasets, and found that the high degree of uncertainty around the CDC&rsquo;s estimates had serious implications for public health research in the United States. The article was also published on <a href='https://fivethirtyeight.com/features/the-cdc-is-publishing-unreliable-data-on-gun-injuries-people-are-using-it-anyway/'>FiveThirtyEight</a>.",
+    "info": "<a href='https://twitter.com/sean_kev'>Sean Campbell</a> and I teamed up with FiveThirtyEight&rsquo;s quantitative editor <a href='https://twitter.com/quantmai'>Mai Nguyen</a> to investigate the flawed approach used by the CDC to generate estimates of nonfatal firearm injuries. We developed a methodology for comparing the trends indicated by the CDC&rsquo;s data with those in other public health datasets, and found that the high degree of uncertainty around the CDC&rsquo;s estimates had serious implications for public health research in the United States. This article and its <a href='https://www.thetrace.org/2019/03/cdc-nonfatal-gun-injuries-update/'>follow-up</a> prompted a group of senators to <a href='https://www.thetrace.org/rounds/senators-cdc-gun-injuries-letter/'>demand answers</a> from the Secretary of Health and Human Services about the CDC&rsquo;s data quality issues.",
     "url": "https://www.thetrace.org/2018/10/cdc-nonfatal-gun-injury-data-estimate-problems/"
   },
   {
