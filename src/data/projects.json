@@ -1,5 +1,15 @@
 [
   {
+    "title": "A Guide to Every Known Investigation of the NRA",
+    "category": "The Trace",
+    "date": "February 2019 – present",
+    "image": { "src": "../img/nra-investigations.png" },
+    "alt": "A chart summarizing a senate investigation of the NRA.",
+    "role": "Words and graphics",
+    "info": "State and federal investigations of the NRA have been piling up over the past year, including a <a href='https://www.thetrace.org/2019/02/nra-congressional-inquiry-illegal-coordination/'>few</a> <a href='https://www.thetrace.org/rounds/new-york-opens-investigation-into-nra-tax-exempt-status/'>spurred</a> <a href='https://www.thetrace.org/2019/05/democratic-senators-probe-nra-marketing-firm-over-self-dealing/'>by</a> The Trace&rsquo;s reporting. To make sense of the many threads of these probes, I created a single-page chart to track them all, drawing inspiration from a number of <a href='https://www.washingtonpost.com/graphics/national/trump-russia-investigations/?utm_term=.4c3e76dd0e63'>other</a> <a href='https://www.nytimes.com/interactive/2018/08/21/us/mueller-trump-charges.html'>projects</a> created to keep tabs on a different high-profile subject of many investigations. I&rsquo;ve kept the page updated as new developments emerge.",
+    "url": "https://www.thetrace.org/2019/02/nra-investigations-russia-campaign-finance/"
+  },
+  {
     "title": "Fireproofing the Future in California",
     "category": "The New Yorker",
     "date": "February 2019",

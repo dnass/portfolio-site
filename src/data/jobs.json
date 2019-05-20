@@ -12,7 +12,7 @@
         "dates": "August 2017 – November 2018"
       }
     ],
-    "description": "Designed and developed interactives, charts, and newsroom tools. Contributed to data-driven investigations at the intersection of gun violence and criminal justice, public health, and campaign finance. Collaborated widely within the newsroom and in partnership with other media organizations. Received <a href='http://deadlineclub.org/2018-winners/'>2018 Deadline Club award</a>."
+    "description": "Designed and developed interactives, charts, and newsroom tools. Contributed to data-driven investigations at the intersection of gun violence and criminal justice, public health, and campaign finance. Collaborated widely within the newsroom and in partnership with other media organizations, including <a href='https://www.thetrace.org/features/gun-store-theft-trafficking-atf/'>The New Yorker</a>, <a href='https://fivethirtyeight.com/features/this-years-cdc-gun-injury-data-is-even-less-reliable-than-last-years/'>FiveThirtyEight</a>, and <a href='https://www.politico.com/magazine/story/2018/07/13/mystery-firm-nra-consultant-219004'>Politico</a>. Received <a href='http://deadlineclub.org/2018-winners/'>2018 Deadline Club award</a>."
   },
   {
     "company": "The Phnom Penh Post",
@@ -52,7 +52,7 @@
     "location": "Boston, Mass.",
     "positions": [
       {
-        "title": "Instructor",
+        "title": "English instructor",
         "dates": "December 2013 – June 2014"
       }
     ],
@@ -63,10 +63,21 @@
     "location": "Milwaukee, Wis.",
     "positions": [
       {
-        "title": "Filmmaker",
+        "title": "Director/producer",
         "dates": "May 2012 — May 2014"
       }
     ],
     "description": "Directed and produced a series of documentary shorts about artists and material culture."
+  },
+  {
+    "company": "The Data Collaborative",
+    "location": "Arlington, Mass.",
+    "positions": [
+      {
+        "title": "Marketing associate",
+        "dates": "June 2008 – March 2012"
+      }
+    ],
+    "description": "Produced tutorial videos, newsletters, and other marketing materials for a database development company."
   }
 ]
