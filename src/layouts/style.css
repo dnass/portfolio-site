@@ -17,14 +17,13 @@ a:not(.no-underline):hover {
   color: white;
 }
 
-::-moz-selection {
-  background: #0b4182;
-  color: white;
-}
+/* purgecss start ignore */
 
 img::selection {
   background: rgba(255, 255, 255, 0.5);
 }
+
+/* purgecss end ignore */
 
 .grow {
   transition-duration: 0.15s;
