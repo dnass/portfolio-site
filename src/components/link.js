@@ -14,15 +14,20 @@ const Link = ({ title, url, image, alt, category, date, role, info }) => (
       <Img
         className="ba br1 shadow aspect-ratio aspect-ratio--1x1"
         fluid={image.src.childImageSharp.fluid}
-        alt={title}
+        alt={alt}
       />
     </OutboundLink>
     <div className="w-70-ns w-100">
+      <div>
+        <span className="dib ttu f7 bg-black-10 black-50 pv1 ph2 mb2 br1 lh-solid tracked">
+          {role}
+        </span>
+      </div>
       <OutboundLink
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        alt={title}
+        alt={alt}
         className="dib mb2 grow-parent"
       >
         <h3
@@ -39,7 +44,7 @@ const Link = ({ title, url, image, alt, category, date, role, info }) => (
         </span>
       </OutboundLink>
       <h4 className="ma0 mb3 f5 fw5 black-50">
-        {[category, date, role].filter(Boolean).join(' • ')}
+        {[category, date].filter(Boolean).join(' • ')}
       </h4>
       <p
         className="ma0 lh-copy"
