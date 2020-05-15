@@ -1,5 +1,35 @@
 [
   {
+    "title": "Gun Shops Flouted State Closure Orders in April as Industry Notched Another Big Month",
+    "category": "The Trace / USA Today",
+    "date": "May 2020",
+    "image": { "src": "../img/coronavirus-bg-checks.png" },
+    "alt": "Charts showing levels of gun violence in cities under lockdown.",
+    "role": "Data & Graphics",
+    "info": "Five states declared gun dealers <a href='https://www.thetrace.org/2020/03/coronavirus-gun-store-closures-state-map/'>nonessential</a> under their stay-at-home orders, but federal background check data revealed that gun sales continued in all of them. Reporting with my colleague <a href='https://twitter.com/champebarton'>Champe Barton</a>, we found a pattern of stores defying shutdown orders and states hesitant to take action against them. This story was co-published by <a href='https://www.usatoday.com/story/news/investigations/2020/05/14/gun-shops-flouted-state-coronavirus-closures-fueling-sales-boom/3115968001/'>USA Today</a>.",
+    "url": "https://www.thetrace.org/2020/05/coronavirus-gun-sales-state-closures-background-checks/"
+  },
+  {
+    "title": "Shootings Are a Glaring Exception to the Coronavirus Crime Drop",
+    "category": "The Trace",
+    "date": "April 2020",
+    "image": { "src": "../img/coronavirus-shootings.png" },
+    "alt": "Charts showing levels of gun violence in cities under lockdown.",
+    "role": "Words, Data & Graphics",
+    "info": "While coronavirus lockdowns caused most types of violent crime to decrease, my analysis found that gun violence was up nationally and in several major cities. Using data from Gun Violence Archive and cities&rsquo; open data portals, I tracked rates of gun murders and assaults, as well as other types of violent crime, comparing them against the baseline rates of the past several years. In every city, gun violence remained elevated compared to other violent crime, and a couple saw dramatic spikes.",
+    "url": "https://www.thetrace.org/2020/04/coronavirus-gun-violence-stay-at-home-orders/"
+  },
+  {
+    "title": "Most Shooters Go Free in Chicago’s Most Violent Neighborhoods — While Police Make Non-Stop Drug Arrests",
+    "category": "The Trace / WTTW",
+    "date": "November 2019",
+    "image": { "src": "../img/chicago-shootings.png" },
+    "alt": "A map of shootings in Chicago's 11th police district.",
+    "role": "Graphics",
+    "info": "I produced graphics and assisted with the data analysis for my colleague <a href='https://twitter.com/missryley'>Sarah Ryley</a>&lsquo;s look at unequal policing in Chicago. We found that law enforcement prioritized arrests for simple drug offenses while failing to make arrests in the vast majority of shootings. Out of a massive amount of data, I built a few maps and charts to drive home the most crucial findings. This article was also published by <a href='https://interactive.wttw.com/firsthand/gun-violence/stories/noemi-martinez'>WTTW</a>, Chicago&rsquo;s PBS affiliate.",
+    "url": "https://www.thetrace.org/2019/11/most-shooters-go-free-in-chicagos-most-violent-neighborhoods-while-police-make-non-stop-drug-arrests/"
+  },
+  {
     "title": "Where the 2020 Democratic Candidates Stand on Guns",
     "category": "The Trace",
     "date": "June 2019",
@@ -22,7 +52,7 @@
   {
     "title": "A Guide to Every Known Investigation of the NRA",
     "category": "The Trace",
-    "date": "February 2019 – present",
+    "date": "February – December 2019",
     "image": { "src": "../img/nra-investigations.png" },
     "alt": "A chart summarizing a senate investigation of the NRA.",
     "role": "Words & graphics",
@@ -76,7 +106,7 @@
     "image": { "src": "../img/nra-tracker.png" },
     "alt": "Table of NRA campaign finance data.",
     "role": "Interactive",
-    "info": "I built this news app to track the NRA&rsquo;s spending activity during the 2018 midterms, using data from the FEC and ProPublica&rsquo;s <a href='https://propublica.github.io/campaign-finance-api-docs/'>Campaign Finance API</a>. An accompanying <a href='https://twitter.com/nramoneybot'>Twitter bot</a> tweeted every time new activity appears in the tracker, and also tweeted calls for key NRA races on election night. The project&rsquo;s serverless backend ran on AWS Lambda and the frontend was built in <a href='https://svelte.technology/'>Svelte</a>.",
+    "info": "I built this news app to track the NRA&rsquo;s spending activity during the 2018 midterms, using data from the FEC and ProPublica&rsquo;s <a href='https://propublica.github.io/campaign-finance-api-docs/'>Campaign Finance API</a>. An accompanying <a href='https://twitter.com/nramoneybot'>Twitter bot</a> tweeted every time new activity ed in the tracker, and also posted calls for key NRA races on election night. The project&rsquo;s serverless backend ran on AWS Lambda and the frontend was built in <a href='https://svelte.technology/'>Svelte</a>.",
     "url": "https://www.thetrace.org/features/nra-campaign-finance-tracker/"
   },
   {
@@ -177,7 +207,7 @@
     "role": "Interactive",
     "alt": "Treemap diagram of four years of Cambodia's national budget data.",
     "info": "In Cambodia, public data is scarce and often difficult to access. When I got ahold of four years of national budget figures, I built this interactive budget explorer to make the data available as a public resource.",
-    "url": "http://www.phnompenhpost.com/national/interactive-visualising-cambodias-national-budget"
+    "url": "https://web.archive.org/web/20180319193250/http://phnompenhpost.com/national/interactive-visualising-cambodias-national-budget"
   },
   {
     "title": "History of crimes, ineptitude for Cambodia&rsquo;s flag of convenience scheme",
@@ -207,7 +237,7 @@
     "role": "Interactive",
     "alt": "Visualization of the business holdings of Cambodian Prime Minister Hun Sen's extended family.",
     "info": "A Global Witness <a href='https://www.globalwitness.org/en/reports/hostile-takeover/'>report</a> detailing the vast business holdings of Hun Sen&rsquo;s extended family served as the basis for this interactive, my first ever D3 project. This article was also <a href='https://www.postkhmer.com/%E1%9E%96%E1%9F%90%E1%9E%8F%E1%9F%8C%E1%9E%98%E1%9E%B6%E1%9E%93%E1%9E%87%E1%9E%B6%E1%9E%8F%E1%9E%B7/%E1%9E%A2%E1%9E%B6%E1%9E%8E%E1%9E%B6%E1%9E%85%E1%9E%80%E1%9F%92%E1%9E%9A%E1%9E%87%E1%9F%86%E1%9E%93%E1%9E%BD%E1%9E%89%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%80%E1%9E%BC%E1%9E%9B-%E1%9E%A0%E1%9F%8A%E1%9E%BB%E1%9E%93-%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%BC%E1%9E%9C%E1%9E%94%E1%9E%B6%E1%9E%93%E1%9E%9B%E1%9E%B6%E1%9E%8F%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%8A%E1%9E%B6%E1%9E%84%E1%9E%8A%E1%9F%84%E1%9E%99-globalwitness'>published in Khmer</a>.",
-    "url": "http://www.phnompenhpost.com/national/inside-hun-familys-business-empire#interactive"
+    "url": "https://www.phnompenhpost.com/national-politics/interactive-explore-hun-familys-business-empire"
   },
   {
     "title": "Only 20 percent of PM&rsquo;s recent Facebook &lsquo;likes&rsquo; from Cambodia",
