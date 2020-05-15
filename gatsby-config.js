@@ -1,13 +1,14 @@
 module.exports = {
   siteMetadata: {
     title: `Daniel Nass`,
-    subtitle: `News ⧉ Data ⧉ Graphics ⧉ Code`,
+    subtitle: `News&nbsp;⧉&nbsp;Data&nbsp;⧉ Graphics&nbsp;⧉&nbsp;Code`,
     description: `Visual journalist Daniel Nass creates interactive and data-driven stories.`,
     phone: `(781) 354-6246`,
     email: `dnlnss [at] gmail [dot] com`,
     location: `Brooklyn, N.Y.`
   },
   plugins: [
+    `gatsby-plugin-preact`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     `gatsby-transformer-sharp`,
@@ -51,6 +52,12 @@ module.exports = {
       options: {
         printRejected: true,
         whitelist: ['svg-inline--fa', 'fa-w-14', 'fa-w-18', 'fa-3x']
+      }
+    },
+    {
+      resolve: `gatsby-plugin-webpack-bundle-analyzer`,
+      options: {
+        production: false
       }
     }
   ]

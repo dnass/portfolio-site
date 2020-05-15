@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Link from '../components/link'
-import Title from '../components/title'
+import Title from '../layouts/title'
 
 export default ({ data }) => (
   <main className="mb3 flex flex-wrap ">

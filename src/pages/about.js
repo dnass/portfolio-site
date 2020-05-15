@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import Title from '../components/title'
+import Title from '../layouts/title'
 
 export default ({ data }) => (
   <main className="pv4 f4 lh-copy flex flex-column flex-row-l items-center bt b--light-gray">
@@ -33,8 +33,8 @@ export default ({ data }) => (
         >
           The Phnom Penh Post
         </a>
-        . His work has also appeared in The New Yorker and FiveThirtyEight. He
-        lives in Brooklyn.
+        . His work has also appeared in The New Yorker, FiveThirtyEight, and USA
+        Today. He lives in Brooklyn.
       </p>
       <p className="mv0">
         Get in touch!{' '}
@@ -64,8 +64,6 @@ export const query = graphql`
   query {
     file(name: { eq: "daniel-nass" }) {
       childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
         fluid(maxWidth: 640) {
           ...GatsbyImageSharpFluid
         }
