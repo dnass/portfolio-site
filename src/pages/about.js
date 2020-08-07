@@ -65,7 +65,7 @@ export const query = graphql`
     file(name: { eq: "daniel-nass" }) {
       childImageSharp {
         fluid(maxWidth: 640) {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
