@@ -2,66 +2,35 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Title from '../layouts/title'
+import { linkUp } from '../util'
 
-export default ({ data }) => (
+export default ({ data: { file, allAboutJson } }) => (
   <main className="pv4 f4 lh-copy flex flex-column flex-row-l items-center bt b--light-gray">
     <Title page="About" />
-    <div className="w-100 w-60-l mr4-l mb0-l mb4">
+    <div className="w-100 w-50-l mr4-l mb0-l mb4">
       <Img
         className="br3"
-        fluid={data.file.childImageSharp.fluid}
+        fluid={file.childImageSharp.fluid}
         alt="A photograph of Daniel Nass"
       />
     </div>
-    <div className="w-100 w-40-l ml4-l">
-      <p className="mb4 mt0">
-        <span className="fw7">Daniel Nass</span> is associate editor for data
-        and graphics at{' '}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.thetrace.org/author/dnass/"
-        >
-          The Trace
-        </a>
-        , where he creates data-driven stories, news apps, charts, and more.
-        Before that, he was the web editor of{' '}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="http://www.phnompenhpost.com/author/daniel-nass/85381"
-        >
-          The Phnom Penh Post
-        </a>
-        . His work has also appeared in The New Yorker, FiveThirtyEight, and USA
-        Today. He lives in Brooklyn.
-      </p>
-      <p className="mv0">
-        Get in touch!{' '}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://twitter.com/dnlnss"
-        >
-          @dnlnss
-        </a>{' '}
-        or{' '}
-        <a
-          className="dib"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="mailto:dnass@thetrace.org"
-        >
-          dnass [at] thetrace [dot] org
-        </a>
-        .
-      </p>
+    <div className="w-100 w-50-l ml4-l">
+      {allAboutJson.edges.map(({ node: { text } }) => (
+        <p class="mb4 mt0" dangerouslySetInnerHTML={{ __html: linkUp(text) }} />
+      ))}
     </div>
   </main>
 )
 
 export const query = graphql`
-  query {
+  {
+    allAboutJson {
+      edges {
+        node {
+          text
+        }
+      }
+    }
     file(name: { eq: "daniel-nass" }) {
       childImageSharp {
         fluid(maxWidth: 640) {

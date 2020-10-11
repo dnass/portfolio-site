@@ -2,6 +2,7 @@ import React from 'react'
 import Img from 'gatsby-image'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { linkUp } from '../util'
 
 const Link = ({ title, url, image, alt, category, date, role, info }) => (
   <section className="ph4-ns ph2 pv4 flex flex-column flex-row-ns bt b--light-gray">
@@ -48,11 +49,7 @@ const Link = ({ title, url, image, alt, category, date, role, info }) => (
       </h4>
       <p
         className="ma0 lh-copy"
-        dangerouslySetInnerHTML={{
-          __html: info
-            .split('a href')
-            .join("a target='_blank' rel='noopener noreferrer' href")
-        }}
+        dangerouslySetInnerHTML={{ __html: linkUp(info) }}
       />
     </div>
   </section>

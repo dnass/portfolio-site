@@ -24,3 +24,6 @@ library.add(
   faEnvelope,
   faMapMarkerAlt
 )
+
+export const linkUp = (html) =>
+  html.split('a href').join("a target='_blank' rel='noopener noreferrer' href")

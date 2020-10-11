@@ -20,13 +20,13 @@ export default () => {
 
   return (
     <header className="ph4-l mt5-ns mb4 mt4">
-      <div className="tl-l tc dib-l db">
+      <a href="/" className="tl-l tc dib-l db no-underline grow">
         <h1 className="f1-ns f2 fw8 black-80 ttu ma0 mb2">{title}</h1>
         <h2
           className="f3-ns f4 fw4 black-50 ttu ma0 tracked"
           dangerouslySetInnerHTML={{ __html: subtitle }}
         ></h2>
-      </div>
+      </a>
       <nav className="tc mt4 fr-l">
         <NavItem path={'/'} title={'Work'} />
         <NavItem path={'/about/'} title={'About'} />

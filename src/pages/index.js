@@ -4,7 +4,7 @@ import Link from '../components/link'
 import Title from '../layouts/title'
 
 export default ({ data }) => (
-  <main className="mb3 flex flex-wrap ">
+  <main className="mb3 flex flex-wrap">
     <Title page="Portfolio" />
     {data.allProjectsJson.edges.map(({ node }) => (
       <Link key={node.title} {...node} />

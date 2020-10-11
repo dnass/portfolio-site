@@ -18,16 +18,16 @@ const getTransitionStyles = {
   }
 }
 
-export default ({ children, location }) => (
+export default ({ children, location: { pathname } }) => (
   <TransitionGroup>
     <Transition
-      key={location.pathname}
+      key={pathname}
       timeout={{
         enter: timeout,
         exit: timeout
       }}
     >
-      {status => <div style={getTransitionStyles[status]}>{children}</div>}
+      {(status) => <div style={getTransitionStyles[status]}>{children}</div>}
     </Transition>
   </TransitionGroup>
 )

@@ -6,6 +6,7 @@ import Contact from '../components/resume/contact'
 import Section from '../components/resume/section'
 import Job from '../components/resume/job'
 import Position from '../components/resume/position'
+import { linkUp } from '../util'
 
 export default ({ data }) => (
   <main className="mb3 flex flex-wrap bt b--light-gray">
@@ -28,11 +29,7 @@ export default ({ data }) => (
             ))}
             <div
               className="w-70-ns mt2 f5 lh-copy"
-              dangerouslySetInnerHTML={{
-                __html: description
-                  .split('a href')
-                  .join("a target='_blank' rel='noopener noreferrer' href")
-              }}
+              dangerouslySetInnerHTML={{ __html: linkUp(description) }}
             />
           </Fragment>
         )

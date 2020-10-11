@@ -1,15 +1,17 @@
 import 'tachyons'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
+import smartquotes from 'smartquotes'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Transition from './transition'
-import './icons'
 import './style.css'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
 export default ({ children, location }) => {
+  useEffect(smartquotes)
+
   const { site, allFile } = useStaticQuery(graphql`
     query {
       site {

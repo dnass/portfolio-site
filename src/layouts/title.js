@@ -17,6 +17,7 @@ export default ({ page }) => {
 
   return (
     <Helmet title={title}>
+      <html lang="en" />
       <meta property="og:title" content={title} />
       <meta name="twitter:title" content={title} />
     </Helmet>

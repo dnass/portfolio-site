@@ -1,3 +1,7 @@
+html {
+  overflow-y: scroll;
+}
+
 .shadow {
   box-shadow: 5px 5px 0 #0b4182;
   border-color: #0b4182;
