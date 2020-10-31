@@ -5,7 +5,7 @@ module.exports = {
     description: `Visual journalist Daniel Nass creates interactive and data-driven stories.`,
     phone: `(781) 354-6246`,
     email: `dnlnss [at] gmail [dot] com`,
-    location: `Brooklyn, N.Y.`
+    location: `Arlington, Mass.`
   },
   plugins: [
     `gatsby-plugin-preact`,
