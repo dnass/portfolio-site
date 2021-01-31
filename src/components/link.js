@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { linkUp } from '../util'
 
 const Link = ({ title, url, image, alt, category, date, role, info }) => (
-  <section className="ph4-ns ph2 pv4 flex flex-column flex-row-ns bt b--light-gray">
+  <div className="ph4-ns ph2 pv4 flex flex-column flex-row-ns bt b--light-gray">
     <OutboundLink
       href={url}
       target="_blank"
@@ -52,7 +52,7 @@ const Link = ({ title, url, image, alt, category, date, role, info }) => (
         dangerouslySetInnerHTML={{ __html: linkUp(info) }}
       />
     </div>
-  </section>
+  </div>
 )
 
 export default Link

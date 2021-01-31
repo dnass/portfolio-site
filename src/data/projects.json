@@ -1,5 +1,15 @@
 [
   {
+    "title": "A Historic Surge in Gun Violence Compounds the Traumas of 2020",
+    "category": "The Trace",
+    "date": "December 2020",
+    "image": { "src": "../img/2020-gun-violence.png" },
+    "alt": "Chart comparing mass shootings in 2020 to previous years.",
+    "role": "Data & Interactive",
+    "info": "This story is an attempt to make sense of the surge of gun violence that accompanied the social upheavals of 2020. Centering the perspectives of violence prevention workers and members of communities that bear the brunt of gun violence, it also incorporates national and city-level crime data and rich photography to create a holistic picture of the toll guns took in 2020.",
+    "url": "https://www.thetrace.org/2020/12/shootings-data-philadelphia-cleveland-chicago-gun-violence/"
+  },
+  {
     "title": "How Much is the NRA Spending to Reelect Donald Trump?",
     "category": "The Trace",
     "date": "August 2020",
@@ -200,7 +210,7 @@
     "url": "https://www.thetrace.org/rounds/atf-bump-stock-regulation-comments-analysis/"
   },
   {
-    "title": "Stolen Guns: Rising Firearm Theft Is Quietly Fueling Violent Crime",
+    "title": "Rising Firearm Theft Is Quietly Fueling Violent Crime",
     "category": "The Trace / NBC",
     "date": "November 2017",
     "image": { "src": "../img/missing-pieces.png" },

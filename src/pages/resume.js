@@ -37,10 +37,14 @@ export default ({ data }) => (
     </Section>
     <Section title="Education">
       {data.allEducationJson.edges.map(
-        ({ node: { school, location, dates, degree } }) => (
+        ({ node: { school, location, dates, degree, description } }) => (
           <Fragment key={school}>
             <Job name={school} location={location} />
             <Position title={degree} dates={dates} />
+            <div
+              className="w-70-ns mt2 f5 lh-copy"
+              dangerouslySetInnerHTML={{ __html: description }}
+            />
           </Fragment>
         )
       )}
@@ -86,6 +90,7 @@ export const query = graphql`
           location
           dates
           degree
+          description
         }
       }
     }
