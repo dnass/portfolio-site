@@ -57,7 +57,8 @@
     "alt": "Charts showing levels of gun violence in cities under lockdown.",
     "role": "Words, Data & Graphics",
     "info": "While coronavirus lockdowns caused most types of violent crime to decrease, my analysis found that gun violence was up nationally and in several major cities. Using data from Gun Violence Archive and cities' open data portals, I tracked rates of gun murders and assaults, as well as other types of violent crime, comparing them against the baseline rates of the past several years. In every city, gun violence remained elevated compared to other violent crime, and a couple saw dramatic spikes.",
-    "url": "https://www.thetrace.org/2020/04/coronavirus-gun-violence-stay-at-home-orders/"
+    "url": "https://www.thetrace.org/2020/04/coronavirus-gun-violence-stay-at-home-orders/",
+    "hide": true
   },
   {
     "title": "Most Shooters Go Free in Chicago’s Most Violent Neighborhoods — While Police Make Non-Stop Drug Arrests",
@@ -67,7 +68,8 @@
     "alt": "A map of shootings in Chicago's 11th police district.",
     "role": "Graphics",
     "info": "I produced graphics and assisted with the data analysis for my colleague <a href='https://twitter.com/missryley'>Sarah Ryley</a>'s look at unequal policing in Chicago. We found that law enforcement prioritized arrests for simple drug offenses while failing to make arrests in the vast majority of shootings. Out of a massive amount of data, I built a few maps and charts to drive home the most crucial findings. This article was also published by <a href='https://interactive.wttw.com/firsthand/gun-violence/stories/noemi-martinez'>WTTW</a>, Chicago's PBS affiliate.",
-    "url": "https://www.thetrace.org/2019/11/most-shooters-go-free-in-chicagos-most-violent-neighborhoods-while-police-make-non-stop-drug-arrests/"
+    "url": "https://www.thetrace.org/2019/11/most-shooters-go-free-in-chicagos-most-violent-neighborhoods-while-police-make-non-stop-drug-arrests/",
+    "hide": true
   },
   {
     "title": "Where the 2020 Democratic Candidates Stand on Guns",
@@ -87,7 +89,8 @@
     "alt": "A flowchart showing Wayne and Susan LaPierre's relationship with the NRA and a charity.",
     "role": "Words & graphics",
     "info": "I wrote and designed this visual explainer of financial misconduct within the NRA (which includes overbilling by vendors, huge executive compensation packages, and outrageously expensive suits). I also created the photo illustration.",
-    "url": "https://www.thetrace.org/2019/05/nra-ackerman-lapierre-financial-misconduct-guide/"
+    "url": "https://www.thetrace.org/2019/05/nra-ackerman-lapierre-financial-misconduct-guide/",
+    "hide": true
   },
   {
     "title": "A Guide to Every Known Investigation of the NRA",
@@ -97,7 +100,8 @@
     "alt": "A chart summarizing a senate investigation of the NRA.",
     "role": "Words & graphics",
     "info": "State and federal investigations of the NRA have been piling up over the past year, including a <a href='https://www.thetrace.org/2019/02/nra-congressional-inquiry-illegal-coordination/'>few</a> <a href='https://www.thetrace.org/rounds/new-york-opens-investigation-into-nra-tax-exempt-status/'>spurred</a> <a href='https://www.thetrace.org/2019/05/democratic-senators-probe-nra-marketing-firm-over-self-dealing/'>by</a> The Trace's reporting. To make sense of the many threads of these probes, I created a single-page chart to track them all, drawing inspiration from a number of <a href='https://www.washingtonpost.com/graphics/national/trump-russia-investigations/?utm_term=.4c3e76dd0e63'>other</a> <a href='https://www.nytimes.com/interactive/2018/08/21/us/mueller-trump-charges.html'>projects</a> created to keep tabs on a different high-profile subject of many investigations. I've kept the page updated as new developments emerge.",
-    "url": "https://www.thetrace.org/2019/02/nra-investigations-russia-campaign-finance/"
+    "url": "https://www.thetrace.org/2019/02/nra-investigations-russia-campaign-finance/",
+    "hide": true
   },
   {
     "title": "Fireproofing the Future in California",
@@ -147,7 +151,8 @@
     "alt": "Table of NRA campaign finance data.",
     "role": "Interactive",
     "info": "I built this news app to track the NRA's spending activity during the 2018 midterms, using data from the FEC and ProPublica's <a href='https://propublica.github.io/campaign-finance-api-docs/'>Campaign Finance API</a>. An accompanying <a href='https://twitter.com/nramoneybot'>Twitter bot</a> tweeted every time new activity ed in the tracker, and also posted calls for key NRA races on election night. The project's serverless backend ran on AWS Lambda and the frontend was built in <a href='https://svelte.technology/'>Svelte</a>.",
-    "url": "https://www.thetrace.org/features/nra-campaign-finance-tracker/"
+    "url": "https://www.thetrace.org/features/nra-campaign-finance-tracker/",
+    "hide": true
   },
   {
     "title": "The CDC Says Gun Injuries Are on the Rise. But There Are Big Problems With Its Data.",
@@ -177,7 +182,8 @@
     "alt": "Map visualizing the NRA grades of Florida lawmakers.",
     "role": "Interactive",
     "info": "For a feature on NRA lobbyist Marion Hammer, I collaborated with The New Yorker's digital team to create an interactive map illustrating the NRA grades of every Florida lawmaker. I sourced the data from the NRA's <a href='https://www.nrapvf.org/grades/'>archive</a>, and built the map with D3. The graphic was published on The Trace and in The New Yorker's <a href='https://www.newyorker.com/magazine/2018/03/05/the-nra-lobbyist-behind-floridas-pro-gun-policies'>version</a> of the article.",
-    "url": "https://www.thetrace.org/features/nra-influence-florida-marion-hammer-gun-laws/"
+    "url": "https://www.thetrace.org/features/nra-influence-florida-marion-hammer-gun-laws/",
+    "hide": true
   },
   {
     "title": "The Florida Loophole That Lets Thousands of People Banned From Guns Get Away With Lying on Background Checks",
@@ -187,7 +193,8 @@
     "role": "Words & data",
     "alt": "Photo illustration of a gun and a background check form.",
     "info": "I partnered with Scripps reporter <a href='https://twitter.com/KatieLaGrone'>Katie LaGrone</a> to investigate a little-known loophole in Florida's firearm backround check system that prevents the state from prosecuting buyers for lying about their criminal histories. In addition to the article, a televised segment based on our reporting aired on three Scripps-owned stations in south Florida.",
-    "url": "https://www.thetrace.org/2018/03/florida-lie-and-try-loophole-background-check-denials/"
+    "url": "https://www.thetrace.org/2018/03/florida-lie-and-try-loophole-background-check-denials/",
+    "hide": true
   },
   {
     "title": "What Members of Congress Do — and Don’t — Say After Mass Shootings",
@@ -227,7 +234,8 @@
     "role": "Interactive",
     "alt": "Interactive quiz about gun violence in America.",
     "info": "I designed and coded this news quiz on gun violence in America, which also ran in the <a href='https://www.huffingtonpost.com/entry/how-much-do-you-know-about-gun-violence-in-america_us_5a09eee9e4b0bc648a0d0e96'>Huffington Post</a>. A simple Firebase backend saves user responses in a database.",
-    "url": "https://www.thetrace.org/2017/11/gun-violence-in-america-quiz/"
+    "url": "https://www.thetrace.org/2017/11/gun-violence-in-america-quiz/",
+    "hide": true
   },
   {
     "title": "Three-Body Problem",
@@ -257,7 +265,8 @@
     "role": "Words & graphics",
     "alt": "A map of a Cambodian ship's movements between China and North Korea.",
     "info": "Until 2016, Cambodia ran a flag of convenience program, under which foreign nationals could register their ships to fly the Cambodian flag. To investigate the program's shady history, I scraped GPS tracking data for hundreds of Cambodian-flagged vessels, which reporter <a href='https://twitter.com/jackoozell'>Jack Davies</a> and I combed through to identify ships that had called at ports in North Korea and Crimea. I also designed the article's maps.",
-    "url": "http://www.phnompenhpost.com/national/history-crimes-ineptitude-cambodias-flag-convenience-scheme"
+    "url": "http://www.phnompenhpost.com/national/history-crimes-ineptitude-cambodias-flag-convenience-scheme",
+    "hide": true
   },
   {
     "title": "The changing face of Phnom Penh",

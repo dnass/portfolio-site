@@ -52,7 +52,7 @@ export const query = graphql`
         }
       }
     }
-    allProjectsJson {
+    allProjectsJson(filter: { hide: { ne: true } }) {
       edges {
         node {
           title
