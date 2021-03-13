@@ -1,7 +1,7 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 
-export default () => {
+const Header = () => {
   const {
     site: {
       siteMetadata: { title, subtitle }
@@ -29,3 +29,5 @@ export default () => {
     </header>
   )
 }
+
+export default Header

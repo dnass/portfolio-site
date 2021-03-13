@@ -2,7 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import ContactLink from './contactlink'
 
-export default () => {
+const Footer = () => {
   const { allContactsJson } = useStaticQuery(graphql`
     {
       allContactsJson {
@@ -26,3 +26,5 @@ export default () => {
     </footer>
   )
 }
+
+export default Footer

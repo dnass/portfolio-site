@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { linkUp } from '../util'
@@ -12,9 +12,9 @@ const Link = ({ title, url, image, alt, category, date, role, info }) => (
       rel="noopener noreferrer"
       className="w-30-ns w-100 mr4-ns mb1-ns mb3 grow"
     >
-      <Img
+      <GatsbyImage
         className="ba br1 shadow aspect-ratio aspect-ratio--1x1"
-        fluid={image.src.childImageSharp.fluid}
+        image={image.src.childImageSharp.gatsbyImageData}
         alt={alt}
       />
     </OutboundLink>

@@ -9,7 +9,7 @@ import Transition from './transition'
 import './style.css'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
-export default ({ children, location }) => {
+const Layout = ({ children, location }) => {
   useEffect(smartquotes)
 
   const { site, allFile } = useStaticQuery(graphql`
@@ -57,3 +57,5 @@ export default ({ children, location }) => {
     </>
   )
 }
+
+export default Layout

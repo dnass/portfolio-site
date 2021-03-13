@@ -8,7 +8,7 @@ import Job from '../components/resume/job'
 import Position from '../components/resume/position'
 import { linkUp } from '../util'
 
-export default ({ data }) => (
+const Resume = ({ data }) => (
   <main className="mb3 flex flex-wrap bt b--light-gray">
     <Title page="Résumé" />
     <Helmet>
@@ -60,6 +60,8 @@ export default ({ data }) => (
     </Section>
   </main>
 )
+
+export default Resume
 
 export const query = graphql`
   {

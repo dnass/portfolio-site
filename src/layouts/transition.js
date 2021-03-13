@@ -18,7 +18,7 @@ const getTransitionStyles = {
   }
 }
 
-export default ({ children, location: { pathname } }) => (
+const PageTransition = ({ children, location: { pathname } }) => (
   <TransitionGroup>
     <Transition
       key={pathname}
@@ -31,3 +31,5 @@ export default ({ children, location: { pathname } }) => (
     </Transition>
   </TransitionGroup>
 )
+
+export default PageTransition
