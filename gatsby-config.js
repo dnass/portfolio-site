@@ -13,6 +13,7 @@ module.exports = {
     `gatsby-plugin-postcss`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
     `gatsby-transformer-json`,
     `gatsby-plugin-layout`,
     {
@@ -51,14 +52,16 @@ module.exports = {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         printRejected: true,
-        whitelist: ['svg-inline--fa', 'fa-w-14', 'fa-w-18', 'fa-3x']
-      }
-    },
-    {
-      resolve: `gatsby-plugin-webpack-bundle-analyzer`,
-      options: {
-        production: false
+        purgeCSSOptions: {
+          safelist: ['svg-inline--fa', 'fa-3x']
+        }
       }
     }
+    // {
+    //   resolve: `gatsby-plugin-webpack-bundle-analyzer`,
+    //   options: {
+    //     production: false
+    //   }
+    // }
   ]
 }

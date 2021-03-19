@@ -40,11 +40,3 @@ img::selection {
 .grow-parent:hover .grow-child {
   transform: scale(1.2);
 }
-
-.nav {
-  transition: border-width 0.15s ease-out;
-}
-
-.nav:hover {
-  border-width: 0.25rem;
-}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { GatsbyImage } from 'gatsby-plugin-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { linkUp } from '../util'
@@ -14,8 +14,9 @@ const Link = ({ title, url, image, alt, category, date, role, info }) => (
     >
       <GatsbyImage
         className="ba br1 shadow aspect-ratio aspect-ratio--1x1"
-        image={image.src.childImageSharp.gatsbyImageData}
+        image={getImage(image.src)}
         alt={alt}
+        loading="lazy"
       />
     </OutboundLink>
     <div className="w-70-ns w-100">

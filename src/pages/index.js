@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Link from '../components/link'
 import Title from '../layouts/title'
-import { GatsbyImage } from 'gatsby-plugin-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { linkUp } from '../util'
 
 const Index = ({ data: { allAboutJson, allProjectsJson, file } }) => (
@@ -11,9 +11,10 @@ const Index = ({ data: { allAboutJson, allProjectsJson, file } }) => (
     <section className="ph4-ns ph2 pt5-ns pt4 pb5 f4 lh-copy flex flex-column flex-row-l items-center bt b--light-gray">
       <div className="w-100 w-50-l mr4-l mb0-l mb4">
         <GatsbyImage
-          image={file.childImageSharp.gatsbyImageData}
+          image={getImage(file)}
           className="br3"
           alt="A photograph of Daniel Nass"
+          loading="eager"
         />
       </div>
       <div className="w-100 w-50-l ml4-l">
@@ -49,7 +50,7 @@ export const query = graphql`
     }
     file(name: { eq: "daniel-nass" }) {
       childImageSharp {
-        gatsbyImageData(width: 640, layout: CONSTRAINED)
+        gatsbyImageData(width: 640, layout: CONSTRAINED, placeholder: BLURRED)
       }
     }
     allProjectsJson(filter: { hide: { ne: true } }) {
@@ -65,7 +66,12 @@ export const query = graphql`
           image {
             src {
               childImageSharp {
-                gatsbyImageData(width: 275, height: 275, layout: CONSTRAINED)
+                gatsbyImageData(
+                  width: 275
+                  height: 275
+                  layout: CONSTRAINED
+                  placeholder: BLURRED
+                )
               }
             }
           }
