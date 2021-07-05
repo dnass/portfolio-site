@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Daniel Nass`,
-    subtitle: `News&nbsp;⧉&nbsp;Code&nbsp;⧉ Data Visualization`,
+    subtitle: `News&nbsp;⧉&nbsp;Code&nbsp;⧉&nbsp;Dataviz`,
     description: `Visual journalist Daniel Nass creates interactive and data-driven stories.`,
     phone: `(781) 354-6246`,
     email: `dnlnss [at] gmail [dot] com`,
-    location: `Arlington, Mass.`
+    location: `Toronto, Ont.`
   },
   plugins: [
     `gatsby-plugin-preact`,

@@ -20,11 +20,6 @@ const Link = ({ title, url, image, alt, category, date, role, info }) => (
       />
     </OutboundLink>
     <div className="w-70-ns w-100">
-      <div>
-        <span className="dib ttu f7 bg-black-10 black-50 pv1 ph2 mb2 br1 lh-solid tracked">
-          {role}
-        </span>
-      </div>
       <OutboundLink
         href={url}
         target="_blank"

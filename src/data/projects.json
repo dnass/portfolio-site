@@ -1,12 +1,22 @@
 [
   {
+    "title": "Explore Nearly 2,000 Gun Dealer Inspection Reports",
+    "category": "The Trace / USA TODAY",
+    "date": "May 2021",
+    "image": { "src": "../img/inspection-map.png" },
+    "alt": "A map and table of gun dealer inspections.",
+    "role": "Data & Interactive",
+    "info": "For this investigation into the federal government's failure to regulate gun dealers, co-published with <a href='https://www.usatoday.com/in-depth/news/investigations/2021/05/26/gun-dealers-let-off-hook-when-atf-inspections-find-violations/7210266002/'>USA TODAY</a>, I also parsed and analyzed thousands of pages of documents in Node and R, and then published them in this interactive database built with <a href='https://sapper.svelte.dev/'>Sapper</a> and Airtable. I produced explanatory scrollytelling components for the main <a href='https://www.thetrace.org/2021/05/atf-inspection-report-gun-store-ffl-violation/'>feature story</a> using Svelte. Shortly after publication, Congressional Democrats <a href='https://www.thetrace.org/2021/07/gun-dealer-congress-bill-atf-democrats/'>introduced legislation</a> to tighten the penalties for lawbreaking gun dealers.",
+    "url": "https://projects.thetrace.org/inspections/"
+  },
+  {
     "title": "A Historic Surge in Gun Violence Compounds the Traumas of 2020",
     "category": "The Trace",
     "date": "December 2020",
     "image": { "src": "../img/2020-gun-violence.png" },
     "alt": "Chart comparing mass shootings in 2020 to previous years.",
     "role": "Data & Interactive",
-    "info": "This story is an attempt to make sense of the surge of gun violence that accompanied the social upheavals of 2020. Centering the perspectives of violence prevention workers and members of communities that bear the brunt of gun violence, it also incorporates national and city-level crime data and rich photography to create a holistic picture of the toll guns took in 2020.",
+    "info": "This story was an attempt to make sense of the surge of gun violence that accompanied the social upheavals of 2020. Centering the perspectives of violence prevention workers and members of communities that bear the brunt of gun violence, it also incorporates national and city-level crime data and rich photography to create a holistic picture of the toll guns took in 2020.",
     "url": "https://www.thetrace.org/2020/12/shootings-data-philadelphia-cleveland-chicago-gun-violence/"
   },
   {
@@ -41,12 +51,12 @@
   },
   {
     "title": "Gun Shops Flouted State Closure Orders in April as Industry Notched Another Big Month",
-    "category": "The Trace / USA Today",
+    "category": "The Trace / USA TODAY",
     "date": "May 2020",
     "image": { "src": "../img/coronavirus-bg-checks.png" },
     "alt": "Charts showing levels of gun violence in cities under lockdown.",
     "role": "Data & Graphics",
-    "info": "In the early days of the pandemic, five states declared gun dealers <a href='https://www.thetrace.org/2020/03/coronavirus-gun-store-closures-state-map/'>nonessential</a> under their stay-at-home orders. Federal background check data revealed that gun sales continued in all of those states. Reporting with my colleague <a href='https://twitter.com/champebarton'>Champe Barton</a>, we found a pattern of stores openly defying shutdown orders, and states hesitant to take action against them. This story was co-published with <a href='https://www.usatoday.com/story/news/investigations/2020/05/14/gun-shops-flouted-state-coronavirus-closures-fueling-sales-boom/3115968001/'>USA Today</a>.",
+    "info": "In the early days of the pandemic, five states declared gun dealers <a href='https://www.thetrace.org/2020/03/coronavirus-gun-store-closures-state-map/'>nonessential</a> under their stay-at-home orders. Federal background check data revealed that gun sales continued in all of those states. Reporting with my colleague <a href='https://twitter.com/champebarton'>Champe Barton</a>, we found a pattern of stores openly defying shutdown orders, and states hesitant to take action against them. This story was co-published with <a href='https://www.usatoday.com/story/news/investigations/2020/05/14/gun-shops-flouted-state-coronavirus-closures-fueling-sales-boom/3115968001/'>USA TODAY</a>.",
     "url": "https://www.thetrace.org/2020/05/coronavirus-gun-sales-state-closures-background-checks/"
   },
   {
@@ -69,38 +79,6 @@
     "role": "Graphics",
     "info": "I produced graphics and assisted with the data analysis for my colleague <a href='https://twitter.com/missryley'>Sarah Ryley</a>'s look at unequal policing in Chicago. We found that law enforcement prioritized arrests for simple drug offenses while failing to make arrests in the vast majority of shootings. Out of a massive amount of data, I built a few maps and charts to drive home the most crucial findings. This article was also published by <a href='https://interactive.wttw.com/firsthand/gun-violence/stories/noemi-martinez'>WTTW</a>, Chicago's PBS affiliate.",
     "url": "https://www.thetrace.org/2019/11/most-shooters-go-free-in-chicagos-most-violent-neighborhoods-while-police-make-non-stop-drug-arrests/",
-    "hide": true
-  },
-  {
-    "title": "Where the 2020 Democratic Candidates Stand on Guns",
-    "category": "The Trace",
-    "date": "June 2019",
-    "image": { "src": "../img/candidate-guide.png" },
-    "alt": "A chart of 2020 Democratic candidates' stances on gun licensing.",
-    "role": "Words & interactive",
-    "info": "The 2020 Democratic race is crowded with both candidates and <a href='https://www.washingtonpost.com/graphics/politics/policy-2020/'>policy</a> <a href='https://www.politico.com/2020-election/candidates-views-on-the-issues/'>explainers</a>. I led The Trace's effort to fill in the gaps on gun issues, reaching out to the campaigns with a questionnaire of 11 key policy topics and working with my colleagues to research answers for the candidates who didn't respond. I built the guide with Svelte, taking advantage of its <a href='https://svelte.dev/docs#Server-side_component_API'>SSR</a> capabilities to produce a static HTML project page, and spent many joyful hours cutting out the candidates' heads in Photoshop.",
-    "url": "https://www.thetrace.org/2019/06/democratic-candidates-2020-gun-policy/"
-  },
-  {
-    "title": "An Illustrated Guide to the NRA’s Lavish Spending and Cozy Deals",
-    "category": "The Trace",
-    "date": "May 2019",
-    "image": { "src": "../img/nra-guide.png" },
-    "alt": "A flowchart showing Wayne and Susan LaPierre's relationship with the NRA and a charity.",
-    "role": "Words & graphics",
-    "info": "I wrote and designed this visual explainer of financial misconduct within the NRA (which includes overbilling by vendors, huge executive compensation packages, and outrageously expensive suits). I also created the photo illustration.",
-    "url": "https://www.thetrace.org/2019/05/nra-ackerman-lapierre-financial-misconduct-guide/",
-    "hide": true
-  },
-  {
-    "title": "A Guide to Every Known Investigation of the NRA",
-    "category": "The Trace",
-    "date": "February – December 2019",
-    "image": { "src": "../img/nra-investigations.png" },
-    "alt": "A chart summarizing a senate investigation of the NRA.",
-    "role": "Words & graphics",
-    "info": "State and federal investigations of the NRA have been piling up over the past year, including a <a href='https://www.thetrace.org/2019/02/nra-congressional-inquiry-illegal-coordination/'>few</a> <a href='https://www.thetrace.org/rounds/new-york-opens-investigation-into-nra-tax-exempt-status/'>spurred</a> <a href='https://www.thetrace.org/2019/05/democratic-senators-probe-nra-marketing-firm-over-self-dealing/'>by</a> The Trace's reporting. To make sense of the many threads of these probes, I created a single-page chart to track them all, drawing inspiration from a number of <a href='https://www.washingtonpost.com/graphics/national/trump-russia-investigations/?utm_term=.4c3e76dd0e63'>other</a> <a href='https://www.nytimes.com/interactive/2018/08/21/us/mueller-trump-charges.html'>projects</a> created to keep tabs on a different high-profile subject of many investigations. I've kept the page updated as new developments emerge.",
-    "url": "https://www.thetrace.org/2019/02/nra-investigations-russia-campaign-finance/",
     "hide": true
   },
   {
@@ -203,18 +181,8 @@
     "image": { "src": "../img/congress-statements.png" },
     "role": "Words & interactive",
     "alt": "Interactive analysis of the language used in statements by members of Congress following mass shootings.",
-    "info": "After the Parkland shooting, I wanted to find out how prevalent the widely mocked phrase \"thoughts and prayers\" actually was. So I used ProPublica's <a href='https://projects.propublica.org/api-docs/congress-api/'>Congress API</a> to find the text of more than 800 statements released by members of Congress in the aftermath of mass shootings. My analysis found that two-thirds of all the statements contain the word \"pray\" — and also that Marco Rubio is the only Republican ever to utter the words \"gun control\" after a mass shooting. As the final step of the interactive, a search interface lets users query the data themselves.",
+    "info": "After the Parkland shooting, I wanted to find out how prevalent the widely mocked phrase \"thoughts and prayers\" actually was. So I used ProPublica's <a href='https://projects.propublica.org/api-docs/congress-api/'>Congress API</a> to find the text of more than 800 statements released by members of Congress in the aftermath of mass shootings. My analysis found that two-thirds of all the statements contain the word \"pray\" — and also that Marco Rubio is the only Republican ever to utter the words \"gun control\" after a mass shooting. As the final step of the interactive, built with D3, a search interface lets users query the data themselves.",
     "url": "https://www.thetrace.org/2018/02/congress-members-statements-mass-shootings/"
-  },
-  {
-    "title": "The ATF Received 36,000 Comments on Bump Stocks. They’re Overwhelmingly Anti-Regulation.",
-    "category": "The Trace",
-    "date": "February 2018",
-    "image": { "src": "../img/bump-stock-comments.jpg" },
-    "role": "Words & graphics",
-    "alt": "Chart showing the breakdown of 36,000 public comments posted in response to a proposed ban on bump stocks.",
-    "info": "The public comment period for a proposed ATF regulation to regulate bump stocks as machine guns — effectively a ban — drew more than 36,000 comments. My colleague <a href='https://twitter.com/sean_kev'>Sean Campbell</a> and I scraped the text of these comments and, using a combination of Python scripts and hand-tagging, calculated the share of comments for and against the regulation, as well as the percent that were unique or form letters. We found that the responses were overwhelmingly opposed to the regulation, backing up previous <a href='https://www.thetrace.org/rounds/pro-gun-men-react-mass-shootings/'>research</a> which found that gun rights supporters are more politically engaged than their opponents.",
-    "url": "https://www.thetrace.org/rounds/atf-bump-stock-regulation-comments-analysis/"
   },
   {
     "title": "Rising Firearm Theft Is Quietly Fueling Violent Crime",
