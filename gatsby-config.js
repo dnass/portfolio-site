@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Daniel Nass`,
-    subtitle: `News&nbsp;⧉&nbsp;Data&nbsp;⧉ Graphics&nbsp;⧉&nbsp;Code`,
+    subtitle: `News&nbsp;⧉&nbsp;Code&nbsp;⧉ Data Visualization`,
     description: `Visual journalist Daniel Nass creates interactive and data-driven stories.`,
     phone: `(781) 354-6246`,
     email: `dnlnss [at] gmail [dot] com`,
@@ -43,9 +43,9 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: `UA-101609250-1`
+        trackingIds: [`G-4PYXHZD8D3`]
       }
     },
     {
