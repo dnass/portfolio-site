@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Daniel Nass`,
-    subtitle: `News&nbsp;⧉&nbsp;Code&nbsp;⧉&nbsp;Dataviz`,
-    description: `Visual journalist Daniel Nass creates interactive and data-driven stories.`,
+    subtitle: `News&nbsp;⧉&nbsp;Data&nbsp;⧉&nbsp;Graphics&nbsp;⧉&nbsp;Code`,
+    description: `Newsroom developer Daniel Nass creates interactive and data-driven stories.`,
     phone: `(781) 354-6246`,
     email: `dnlnss [at] gmail [dot] com`,
     location: `Toronto, Ont.`
@@ -16,6 +16,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-transformer-json`,
     `gatsby-plugin-layout`,
+    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

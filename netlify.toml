@@ -2,3 +2,6 @@
   from = "/about*"
   to = "/"
   status = 301
+
+[[plugins]]
+  package = "@netlify/plugin-gatsby"
