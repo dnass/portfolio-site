@@ -7,7 +7,6 @@ import { linkUp } from '../util'
 
 const Index = ({ data: { allAboutJson, allProjectsJson, file } }) => (
   <main className="mb3 flex flex-wrap">
-    <Title page="Portfolio" />
     <section className="ph4-ns ph2 pt5-ns pt4 pb5 f4 lh-copy flex flex-column flex-row-l items-center bt b--light-gray">
       <div className="w-100 w-50-l mr4-l mb0-l mb4">
         <GatsbyImage
@@ -67,8 +66,8 @@ export const query = graphql`
             src {
               childImageSharp {
                 gatsbyImageData(
-                  width: 275
-                  height: 275
+                  width: 450
+                  aspectRatio: 1
                   layout: CONSTRAINED
                   placeholder: BLURRED
                 )
@@ -80,3 +79,5 @@ export const query = graphql`
     }
   }
 `
+
+export const Head = () => <Title page="Portfolio" />

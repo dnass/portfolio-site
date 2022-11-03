@@ -7,7 +7,7 @@ module.exports = () => ({
   plugins: [
     postcssImport(),
     postcssCssNext(),
-    postcssBrowserReporter(),
+    postcssBrowserReporter({ disabled: true }),
     postcssReporter()
   ]
 })

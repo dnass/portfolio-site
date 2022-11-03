@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import { graphql } from 'gatsby'
-import { Helmet } from 'react-helmet'
 import Title from '../layouts/title'
 import Contact from '../components/resume/contact'
 import Section from '../components/resume/section'
@@ -10,10 +9,6 @@ import { linkUp } from '../util'
 
 const Resume = ({ data }) => (
   <main className="mb3 flex flex-wrap bt b--light-gray">
-    <Title page="Résumé" />
-    <Helmet>
-      <meta name="robots" content="noindex" />
-    </Helmet>
     <section className="w-100 pt5 pb2 flex-ns justify-center">
       <Contact text={data.site.siteMetadata.location} icon="map-marker-alt" />
       <Contact text={data.site.siteMetadata.phone} icon="phone" />
@@ -105,3 +100,10 @@ export const query = graphql`
     }
   }
 `
+
+export const Head = () => (
+  <>
+    <Title page="Résumé" />
+    <meta name="robots" content="noindex" />
+  </>
+)

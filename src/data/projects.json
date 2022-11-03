@@ -1,5 +1,35 @@
 [
   {
+    "title": "The United States’ Unamendable Constitution",
+    "category": "The New Yorker",
+    "date": "October 2022",
+    "image": { "src": "../img/amendment-timeline.png" },
+    "alt": "The inflation calculator interface and a chart of inflation data.",
+    "role": "Data & Interactive",
+    "info": "I contributed data visualization and development to this article by historian Jill Lepore about the history of efforts to amend the U.S. Constitution. Components included a set of interactive survey questions exploring Americans' attitudes toward the Constitution, as well as a longform annotated timeline visualizing more than 10,000 failed amendments.",
+    "url": "https://www.newyorker.com/culture/annals-of-inquiry/the-united-states-unamendable-constitution"
+  },
+  {
+    "title": "Inflation calculator: How do rising prices affect your personal finances?",
+    "category": "Global News",
+    "date": "May 2022",
+    "image": { "src": "../img/inflation-calculator.png" },
+    "alt": "The inflation calculator interface and a chart of inflation data.",
+    "role": "Data & Interactive",
+    "info": "With inflation dominating the headlines, I built this calculator to allow Canadians to see in depth how rising prices affect their own budgets. The project uses <a href='https://github.com/ShawONEX/global-news-interactive-data/actions/workflows/consumer-price-index.yaml'>GitHub Actions</a> to automatically <a href='https://github.com/ShawONEX/global-news-interactive-data/blob/main/consumer-price-index/scripts/cpi.R'>process</a> and <a href='https://github.com/ShawONEX/global-news-interactive-data/tree/main/consumer-price-index/data'>publish</a> monthly inflation data releases from Statistics Canada. In the interactive app, built with Svelte, users can select a province and plug in numbers from their own budget to see how much their spending has increased over time.",
+    "url": "https://globalnews.ca/news/8820620/inflation-calculator-interactive-personal-finances/"
+  },
+  {
+    "title": "Inside COVID's 'Invisible Hospitals'",
+    "category": "Global News",
+    "date": "January 2022",
+    "image": { "src": "../img/covid-rehab-hospitals.png" },
+    "alt": "A map of hospital locations in Toronto.",
+    "role": "Interactive development",
+    "info": "I developed an immersive scrollytelling presentation for this multimedia investigation into three COVID patients' rehabilitation journeys. The piece incorporates video, audio, photography, maps, and text, all orchestrated by a custom-built Svelte app. I also created a new template within the Global News WordPress theme to allow publication of the statically rendered project files within the CMS.",
+    "url": "https://globalnews.ca/news/8577723/rehabilitation-hospitals-covid-19/"
+  },
+  {
     "title": "Explore Nearly 2,000 Gun Dealer Inspection Reports",
     "category": "The Trace / USA TODAY",
     "date": "May 2021",
@@ -18,16 +48,6 @@
     "role": "Data & Interactive",
     "info": "This story was an attempt to make sense of the surge of gun violence that accompanied the social upheavals of 2020. Centering the perspectives of violence prevention workers and members of communities that bear the brunt of gun violence, it also incorporates national and city-level crime data and rich photography to create a holistic picture of the toll guns took in 2020.",
     "url": "https://www.thetrace.org/2020/12/shootings-data-philadelphia-cleveland-chicago-gun-violence/"
-  },
-  {
-    "title": "How Much is the NRA Spending to Reelect Donald Trump?",
-    "category": "The Trace",
-    "date": "August 2020",
-    "image": { "src": "../img/nra-tracker-2020.png" },
-    "alt": "Data table showing NRA expenditures in the 2020 election.",
-    "role": "Data & Interactive",
-    "info": "The NRA is facing <a href='https://www.thetrace.org/2020/08/nra-lawsuit-letitia-james-new-york/'>unprecedented turmoil</a>, but that hasn't stopped the group from spending millions of dollars to back Trump and other Republican candidates in the 2020 election. Using data from ProPublica's <a href='https://projects.propublica.org/api-docs/campaign-finance/ies/'>Campaign Finance API</a>, I built this tracker to monitor the NRA's independent expenditures in real time. Behind the scenes, an AWS Lambda function periodically checks the API for new entries and writes them to a MongoDB database, which gets dumped to a S3 as a JSON file. On the frontend, the single-page application is rendered with Svelte.",
-    "url": "https://www.thetrace.org/features/nra-2020-election-spending-trump/"
   },
   {
     "title": "How Many Guns Did Americans Buy Last Month?",
@@ -175,16 +195,6 @@
     "hide": true
   },
   {
-    "title": "What Members of Congress Do — and Don’t — Say After Mass Shootings",
-    "category": "The Trace",
-    "date": "February 2018",
-    "image": { "src": "../img/congress-statements.png" },
-    "role": "Words & interactive",
-    "alt": "Interactive analysis of the language used in statements by members of Congress following mass shootings.",
-    "info": "After the Parkland shooting, I wanted to find out how prevalent the widely mocked phrase \"thoughts and prayers\" actually was. So I used ProPublica's <a href='https://projects.propublica.org/api-docs/congress-api/'>Congress API</a> to find the text of more than 800 statements released by members of Congress in the aftermath of mass shootings. My analysis found that two-thirds of all the statements contain the word \"pray\" — and also that Marco Rubio is the only Republican ever to utter the words \"gun control\" after a mass shooting. As the final step of the interactive, built with D3, a search interface lets users query the data themselves.",
-    "url": "https://www.thetrace.org/2018/02/congress-members-statements-mass-shootings/"
-  },
-  {
     "title": "Rising Firearm Theft Is Quietly Fueling Violent Crime",
     "category": "The Trace / NBC",
     "date": "November 2017",
@@ -204,16 +214,6 @@
     "info": "I designed and coded this news quiz on gun violence in America, which also ran in the <a href='https://www.huffingtonpost.com/entry/how-much-do-you-know-about-gun-violence-in-america_us_5a09eee9e4b0bc648a0d0e96'>Huffington Post</a>. A simple Firebase backend saves user responses in a database.",
     "url": "https://www.thetrace.org/2017/11/gun-violence-in-america-quiz/",
     "hide": true
-  },
-  {
-    "title": "Three-Body Problem",
-    "category": "Personal",
-    "date": "October 2017",
-    "image": { "src": "../img/three-body-problem.jpg" },
-    "alt": "An image of the simulated gravitational interaction of three bodies.",
-    "role": "Interactive",
-    "info": "As I was reading Liu Cixin's <em><a href='https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)'>The Three-Body Problem</a></em>, I wanted to get a better understanding of the mechanics of the actual <a href='https://en.wikipedia.org/wiki/Three-body_problem'>three-body problem</a>. So using three.js, React, and a dim recollection of physics I learned in a college astronomy class, I built a little website to simulate it. You can see the code for the project <a href='https://github.com/dnass/threebody'>on GitHub</a>.",
-    "url": "https://threebody.solutions/20/10/5/1/0.14/0.16/0.35/0.2/-0.81/0.34/0.2/0.1/-0.9/0.86/0.52/0.69/0.18/0.49/0.45/0.7/0.86/-0.32/-0.86/-0.08/-0.93"
   },
   {
     "title": "Visualising Cambodia's national budget",
@@ -255,15 +255,5 @@
     "alt": "Visualization of the business holdings of Cambodian Prime Minister Hun Sen's extended family.",
     "info": "A Global Witness <a href='https://www.globalwitness.org/en/reports/hostile-takeover/'>report</a> detailing the vast business holdings of Hun Sen's extended family served as the basis for this interactive, my first ever D3 project. This article was also <a href='https://www.postkhmer.com/%E1%9E%96%E1%9F%90%E1%9E%8F%E1%9F%8C%E1%9E%98%E1%9E%B6%E1%9E%93%E1%9E%87%E1%9E%B6%E1%9E%8F%E1%9E%B7/%E1%9E%A2%E1%9E%B6%E1%9E%8E%E1%9E%B6%E1%9E%85%E1%9E%80%E1%9F%92%E1%9E%9A%E1%9E%87%E1%9F%86%E1%9E%93%E1%9E%BD%E1%9E%89%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%80%E1%9E%BC%E1%9E%9B-%E1%9E%A0%E1%9F%8A%E1%9E%BB%E1%9E%93-%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%BC%E1%9E%9C%E1%9E%94%E1%9E%B6%E1%9E%93%E1%9E%9B%E1%9E%B6%E1%9E%8F%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%8A%E1%9E%B6%E1%9E%84%E1%9E%8A%E1%9F%84%E1%9E%99-globalwitness'>published in Khmer</a>.",
     "url": "https://www.phnompenhpost.com/national-politics/interactive-explore-hun-familys-business-empire"
-  },
-  {
-    "title": "Only 20 percent of PM's recent Facebook 'likes' from Cambodia",
-    "category": "The Phnom Penh Post",
-    "date": "March 2016",
-    "image": { "src": "../img/hun-sen-fb.jpg" },
-    "role": "Words & graphics",
-    "alt": "Bar chart comparing Facebook likes of Hun Sen and Sam Rainsy.",
-    "info": "In 2016, Cambodian Prime Minister Hun Sen was engaged in a Facebook popularity war with then-opposition leader Sam Rainsy. Using data from a social media <a href='https://www.socialbakers.com/statistics/facebook/pages/detail/111975152184324-samdech-hun-sen-cambodian-prime-minister'>analytics site</a>, I discovered that hundreds of thousands of the Prime Minister's Facebook likes had come from countries outside of Cambodia, such as India and the Philippines. The story sparked <a href='http://www.bbc.com/news/world-asia-35839701'>international</a> <a href='http://www.newsweek.com/cambodia-hun-sen-facebook-sam-rainsy-438294'>coverage</a> and led to a legal dispute that between Sam Rainsy and Hun Sen that is <a href='https://www.reuters.com/article/us-facebook-cambodia/facebook-runs-into-lawsuit-over-cambodian-politics-idUSKBN1FT1PB'>still ongoing</a>. This article was also <a href='https://www.postkhmer.com/%E1%9E%96%E1%9F%90%E1%9E%8F%E1%9F%8C%E1%9E%98%E1%9E%B6%E1%9E%93%E1%9E%87%E1%9E%B6%E1%9E%8F%E1%9E%B7/%E1%9E%A2%E1%9F%92%E1%9E%93%E1%9E%80%E1%9E%82%E1%9E%B6%E1%9F%86%E1%9E%91%E1%9F%92%E1%9E%9A%E1%9E%A0%E1%9F%92%E1%9E%9C%E1%9F%81%E1%9E%9F%E1%9E%94%E1%9F%8A%E1%9E%BB%E1%9E%80%E1%9E%93%E1%9E%B6%E1%9E%99%E1%9E%80%E1%9E%9A%E1%9E%8A%E1%9F%92%E1%9E%8B%E1%9E%98%E1%9E%93%E1%9F%92%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%B8-%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%BC%E1%9E%9C%E1%9E%94%E1%9E%B6%E1%9E%93%E1%9E%82%E1%9F%81%E1%9E%9A%E1%9E%80%E1%9E%83%E1%9E%BE%E1%9E%89%E1%9E%90%E1%9E%B6-%E1%9E%87%E1%9E%B6%E1%9E%84%E1%9E%96%E1%9E%B6%E1%9E%80%E1%9F%8B%E1%9E%80%E1%9E%8E%E1%9F%92%E1%9E%8A%E1%9E%B6%E1%9E%9B%E1%9E%98%E1%9E%B6%E1%9E%93%E1%9E%94%E1%9F%92%E1%9E%9A%E1%9E%97%E1%9E%96%E1%9E%98%E1%9E%80%E1%9E%96%E1%9E%B8%E1%9E%94%E1%9E%9A%E1%9E%91%E1%9F%81%E1%9E%9F'>published in Khmer</a>.",
-    "url": "http://www.phnompenhpost.com/national/only-20-cent-pms-recent-facebook-likes-cambodia"
   }
 ]

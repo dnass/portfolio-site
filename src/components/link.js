@@ -13,7 +13,7 @@ const Link = ({ title, url, image, alt, category, date, role, info }) => (
       className="w-30-ns w-100 mr4-ns mb1-ns mb3 grow"
     >
       <GatsbyImage
-        className="ba br1 shadow aspect-ratio aspect-ratio--1x1"
+        className="ba br1 shadow"
         image={getImage(image.src)}
         alt={alt}
         loading="lazy"
