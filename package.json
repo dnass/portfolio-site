@@ -23,7 +23,6 @@
     "gatsby-plugin-postcss": "^5.24.0",
     "gatsby-plugin-preact": "^6.24.0",
     "gatsby-plugin-purgecss": "^6.1.2",
-    "gatsby-plugin-react-helmet": "^5.24.0",
     "gatsby-plugin-sass": "^5.24.0",
     "gatsby-plugin-sharp": "^4.24.0",
     "gatsby-plugin-webpack-bundle-analyzer": "^1.0.5",
@@ -38,7 +37,6 @@
     "preact": "^10.11.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0",
     "react-transition-group": "^4.4.5",
     "smartquotes": "^2.3.2",
     "tachyons": "^4.12.0"
