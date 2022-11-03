@@ -8,7 +8,6 @@ module.exports = {
     location: `Toronto, Ont.`
   },
   plugins: [
-    `gatsby-plugin-preact`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     `gatsby-transformer-sharp`,
