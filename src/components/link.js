@@ -25,7 +25,7 @@ const Link = ({ title, url, image, alt, category, date, role, info }) => (
         target="_blank"
         rel="noopener noreferrer"
         alt={alt}
-        className="dib mb2 grow-parent"
+        className="db mb2 grow-parent"
       >
         <h3
           className="di b f4 lh-title"
