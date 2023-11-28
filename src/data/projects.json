@@ -67,7 +67,7 @@
     "alt": "Screenshot of a scatterplot visualization built with svelte-canvas.",
     "role": "Code",
     "info": "<a href='https://svelte.dev/'>Svelte</a> has been my go-to framework for a few years now, and I recently created this small library which provides an idiomatic wrapper component for the &lt;canvas&gt; element. Users can create layer components that encapsulate individual portions of the canvas, and write <a href='https://svelte.dev/tutorial/reactive-statements'>reactive</a> render functions that redraw whenever the variables that they depend on change. The library enables canvas-based <a href='https://svelte.dev/repl/8265c051bf754f8aba6f5d6ed9d0d74f?version=3.29.0'>interactive</a> <a href='https://svelte.dev/repl/b0c3901c51cd49f1a2f337f731942269?version=3.29.0'>visualizations</a> to be built using familiar Svelte conventions.",
-    "url": "https://github.com/dnass/svelte-canvas"
+    "url": "https://dnass.github.io/svelte-canvas"
   },
   {
     "title": "Gun Shops Flouted State Closure Orders in April as Industry Notched Another Big Month",
@@ -170,7 +170,8 @@
     "alt": "Chart visualizing the NRA's spending with a campaign finance contractor.",
     "role": "Graphics",
     "info": "For <a href='https://twitter.com/mikespiesnyc'>Mike Spies'</a> story on the NRAs's dealings with its top election contractor, I created charts and an interactive explainer to illustrate the convoluted scheme. The reporting and subsequent follow-ups led to a <a href='https://www.thetrace.org/2019/02/nra-congressional-inquiry-illegal-coordination/'>congressional investigation</a> into the NRA's relationship with the firms. The article and accompanying graphics were also published in <a href='https://www.politico.com/magazine/story/2018/07/13/mystery-firm-nra-consultant-219004'>Politico</a>.",
-    "url": "https://www.thetrace.org/2018/07/nra-campaign-finance-onmessage-starboard-strategic/"
+    "url": "https://www.thetrace.org/2018/07/nra-campaign-finance-onmessage-starboard-strategic/",
+    "hide": true
   },
   {
     "title": "The Unchecked Influence of NRA Lobbyist Marion Hammer",
@@ -244,7 +245,7 @@
     "role": "Interactive",
     "alt": "Satellite map presentation showcasing timelapses of major infrastructure developments in Phnom Penh.",
     "info": "The city of Phnom Penh is being dramatically — and often violently — transformed by large-scale construction and land reclamation projects. For this interactive, I created immersive time lapses of Google Earth satellite imagery to illustrate the city's astonishing pace of growth. A locator map built in Mapbox provides geographic context.",
-    "url": "http://www.phnompenhpost.com/multimedia/changing-face-phnom-penh/"
+    "url": "https://web.archive.org/web/20221204113124/https://www.phnompenhpost.com/multimedia/changing-face-phnom-penh/"
   },
   {
     "title": "Inside the Hun family's business empire",
@@ -254,6 +255,6 @@
     "role": "Interactive",
     "alt": "Visualization of the business holdings of Cambodian Prime Minister Hun Sen's extended family.",
     "info": "A Global Witness <a href='https://www.globalwitness.org/en/reports/hostile-takeover/'>report</a> detailing the vast business holdings of Hun Sen's extended family served as the basis for this interactive, my first ever D3 project. This article was also <a href='https://www.postkhmer.com/%E1%9E%96%E1%9F%90%E1%9E%8F%E1%9F%8C%E1%9E%98%E1%9E%B6%E1%9E%93%E1%9E%87%E1%9E%B6%E1%9E%8F%E1%9E%B7/%E1%9E%A2%E1%9E%B6%E1%9E%8E%E1%9E%B6%E1%9E%85%E1%9E%80%E1%9F%92%E1%9E%9A%E1%9E%87%E1%9F%86%E1%9E%93%E1%9E%BD%E1%9E%89%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%80%E1%9E%BC%E1%9E%9B-%E1%9E%A0%E1%9F%8A%E1%9E%BB%E1%9E%93-%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%BC%E1%9E%9C%E1%9E%94%E1%9E%B6%E1%9E%93%E1%9E%9B%E1%9E%B6%E1%9E%8F%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%8A%E1%9E%B6%E1%9E%84%E1%9E%8A%E1%9F%84%E1%9E%99-globalwitness'>published in Khmer</a>.",
-    "url": "https://www.phnompenhpost.com/national-politics/interactive-explore-hun-familys-business-empire"
+    "url": "https://web.archive.org/web/20230725114623/https://phnompenhpost.com/national-politics/interactive-explore-hun-familys-business-empire"
   }
 ]
