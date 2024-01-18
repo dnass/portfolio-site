@@ -6,18 +6,13 @@ import {
   faEnvelope,
   faMapMarkerAlt
 } from '@fortawesome/free-solid-svg-icons'
-import {
-  faTwitterSquare,
-  faGithubSquare,
-  faLinkedin
-} from '@fortawesome/free-brands-svg-icons'
+import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 config.autoAddCss = false
 
 library.add(
   faExternalLinkAlt,
   faEnvelopeSquare,
-  faTwitterSquare,
   faGithubSquare,
   faLinkedin,
   faPhone,
